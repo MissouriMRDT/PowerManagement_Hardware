@@ -440,6 +440,10 @@
     [
       "534a3171-bc53-4d47-914b-3d8b2c2645e1",
       "Battery Management"
+    ],
+    [
+      "8981947f-a8a9-4d15-8319-839c044135c0",
+      "HotSwap"
     ]
   ],
   "text_variables": {},
