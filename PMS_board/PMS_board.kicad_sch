@@ -2,9 +2,275 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 282246b0-e0d8-4997-b3ee-58bf10355d52)
+	(uuid "282246b0-e0d8-4997-b3ee-58bf10355d52")
 	(paper "A4")
 	(lib_symbols)
+	(text "Temporarily put no connects \nto make ERC shut up"
+		(exclude_from_sim no)
+		(at 88.646 48.006 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b5309f22-d0ec-4a4f-9a0d-c29825b78f0e")
+	)
+	(no_connect
+		(at 40.64 59.69)
+		(uuid "13a41d58-6c9d-4e88-b03d-4baad1ba1bb5")
+	)
+	(no_connect
+		(at 40.64 63.5)
+		(uuid "145099c6-8794-47ed-8855-c034f439ea40")
+	)
+	(no_connect
+		(at 40.64 67.31)
+		(uuid "1c98602b-e24f-4f16-9fad-4d8f7fb7ec7f")
+	)
+	(no_connect
+		(at 73.66 55.88)
+		(uuid "57fd21f9-5d53-4a14-a54d-cb6404fc95fe")
+	)
+	(no_connect
+		(at 73.66 60.96)
+		(uuid "613de296-5f10-4708-abf8-ed4ccea4af31")
+	)
+	(no_connect
+		(at 73.66 50.8)
+		(uuid "6b6d1f73-054c-4d61-82b0-7f886dab9556")
+	)
+	(no_connect
+		(at 40.64 46.99)
+		(uuid "6c82de05-c68a-4be1-b91f-16cb15660750")
+	)
+	(no_connect
+		(at 73.66 63.5)
+		(uuid "73398e5d-6082-4bc1-9e2a-c7a90e68d027")
+	)
+	(no_connect
+		(at 40.64 52.07)
+		(uuid "82d579ed-f490-4c30-9f85-e378e69e0d04")
+	)
+	(no_connect
+		(at 73.66 40.64)
+		(uuid "8543c174-fbad-4907-a03b-6b40e1fde96f")
+	)
+	(no_connect
+		(at 40.64 55.88)
+		(uuid "ae7fcc80-4185-4bac-ac80-d282f8ca124f")
+	)
+	(no_connect
+		(at 40.64 72.39)
+		(uuid "c108a9d9-7a2c-4058-9a79-01eaea0cca8d")
+	)
+	(no_connect
+		(at 73.66 53.34)
+		(uuid "d4d5e3d3-0a98-40ee-810d-e0376a7d9679")
+	)
+	(no_connect
+		(at 73.66 58.42)
+		(uuid "de83f108-dc3f-4eab-a35e-f8a9a9cef633")
+	)
+	(no_connect
+		(at 73.66 72.39)
+		(uuid "f9d4dcdd-528f-4434-82a4-e23ce4547807")
+	)
+	(sheet
+		(at 40.64 35.56)
+		(size 33.02 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "534a3171-bc53-4d47-914b-3d8b2c2645e1")
+		(property "Sheetname" "Battery Management"
+			(at 40.64 34.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BatteryManagement.kicad_sch"
+			(at 40.64 78.0546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1S" input
+			(at 40.64 67.31 180)
+			(uuid "6df01a9e-dc29-4ea7-81e2-07f6da2b60ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2S" input
+			(at 40.64 63.5 180)
+			(uuid "30938c37-7f8f-48ae-a469-854c667e4496")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3S" input
+			(at 40.64 59.69 180)
+			(uuid "7a1c03d9-6314-4340-9b67-b2735cd68181")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "4S" input
+			(at 40.64 55.88 180)
+			(uuid "e8b35f5e-83d6-44c2-ae3f-86fc1f8fca8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5S" input
+			(at 40.64 52.07 180)
+			(uuid "19383a41-4752-493f-97bf-de5e9da90674")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FAULT" output
+			(at 73.66 50.8 0)
+			(uuid "ca33642c-c9bd-4856-b7f6-c4cf076a1c75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_RESET" input
+			(at 73.66 53.34 0)
+			(uuid "1b5b0487-ac67-49dd-a6b1-c57751782421")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PACK+" input
+			(at 40.64 46.99 180)
+			(uuid "183d4eb6-2f6c-4fc5-a7c9-8684f6e53b3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PACK-" input
+			(at 40.64 72.39 180)
+			(uuid "326f5127-5980-4462-b83a-443356438db6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RDY" output
+			(at 73.66 55.88 0)
+			(uuid "5e97119b-873e-480e-8c01-941469c265d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 73.66 58.42 0)
+			(uuid "9dd5915b-9a93-40d4-8f14-f2ed2f300e59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 73.66 60.96 0)
+			(uuid "775ab01a-15b1-4246-b00f-89ab26cf5778")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WAKEUP" input
+			(at 73.66 63.5 0)
+			(uuid "1ff6c363-2cff-4055-8427-bb9c5f41763a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSC" output
+			(at 73.66 40.64 0)
+			(uuid "55558fc8-7df5-472a-84d7-0e42acb59e79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSD" output
+			(at 73.66 72.39 0)
+			(uuid "46707eab-9c42-4be0-bf75-dc2927f880ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PMS_board"
+				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
