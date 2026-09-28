@@ -429,17 +429,13 @@
         "uuid": "282246b0-e0d8-4997-b3ee-58bf10355d52"
       }
     ],
-    "used_designators": "MOSFET1-2,#FLG1-2,R1-16,IC1,D1-4,L1,#PWR1-17,SW1,C1-22,U1-2,BT1,BT3-4,F1-3,Q1-2",
+    "used_designators": "MOSFET1-2,#FLG1-2,R1-16,IC1,D1-6,L1,#PWR1-22,SW1,C1-22,U1-2,BT1,BT3-4,F1-3,Q1-2,K1",
     "variants": []
   },
   "sheets": [
     [
       "282246b0-e0d8-4997-b3ee-58bf10355d52",
       "PMS_board"
-    ],
-    [
-      "534a3171-bc53-4d47-914b-3d8b2c2645e1",
-      "Battery Management"
     ],
     [
       "8981947f-a8a9-4d15-8319-839c044135c0",
