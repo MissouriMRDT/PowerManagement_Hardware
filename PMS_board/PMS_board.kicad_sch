@@ -75,6 +75,56 @@
 		(at 73.66 72.39)
 		(uuid "f9d4dcdd-528f-4434-82a4-e23ce4547807")
 	)
+	(label "BattAin"
+		(at 134.62 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1725e5d1-8d47-41eb-8845-1357e697c66b")
+	)
+	(label "BattBin"
+		(at 134.62 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a6642a4-188d-4d19-a9db-3e9377740b98")
+	)
+	(label "Ground"
+		(at 172.72 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a404d060-5719-4cb1-a673-4d602ea3c509")
+	)
+	(label "On{slash}Off Switch"
+		(at 172.72 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a54f6a17-70ef-4455-9ed6-bd46338a2733")
+	)
+	(label "PMS BUS"
+		(at 172.72 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ce593442-acdc-43b7-b828-6c3f1226de99")
+	)
 	(sheet
 		(at 40.64 35.56)
 		(size 33.02 41.91)
