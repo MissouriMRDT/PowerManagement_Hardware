@@ -1,6 +1,12 @@
 {
   "board": {
     "3dviewports": [],
+    "design_settings": {
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "track_widths": [],
+      "via_dimensions": []
+    },
     "ipc2581": {
       "bom_rev": "",
       "dist": "",
@@ -234,7 +240,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "ignore",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -251,6 +257,7 @@
       "wire_dangling": "error"
     }
   },
+  "legacy": [],
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
@@ -403,14 +410,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -422,30 +429,11 @@
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "top_level_sheets": [
-      {
-        "filename": "PMS_board.kicad_sch",
-        "name": "PMS_board",
-        "uuid": "282246b0-e0d8-4997-b3ee-58bf10355d52"
-      }
-    ],
-    "used_designators": "MOSFET1-2,#FLG1-2,R1-28,IC1,D1-6,L1,#PWR1-25,SW1,C1-25,U1-7,BT1,BT3-6,F1-5,Q1-8",
+    "top_level_sheets": [],
+    "used_designators": "",
     "variants": []
   },
-  "sheets": [
-    [
-      "282246b0-e0d8-4997-b3ee-58bf10355d52",
-      "PMS_board"
-    ],
-    [
-      "534a3171-bc53-4d47-914b-3d8b2c2645e1",
-      "Battery Management"
-    ],
-    [
-      "8981947f-a8a9-4d15-8319-839c044135c0",
-      "HotSwap"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
