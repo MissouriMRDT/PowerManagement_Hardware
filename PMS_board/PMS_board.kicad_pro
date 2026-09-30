@@ -444,6 +444,22 @@
     [
       "8981947f-a8a9-4d15-8319-839c044135c0",
       "HotSwap"
+    ],
+    [
+      "266cb597-81f7-4ea7-87c1-e1b826fc674e",
+      "Load Switching + Outputs"
+    ],
+    [
+      "75d57b93-09af-4cc5-9708-acdd62f684c7",
+      "Battery Display"
+    ],
+    [
+      "9ae2dcd5-51ae-42d9-a1ef-fc7cd7fabc7d",
+      "Current Sensing"
+    ],
+    [
+      "63d8c70c-510f-4be7-9ef0-0f3ce9f476db",
+      "Microcontroller"
     ]
   ],
   "text_variables": {},
