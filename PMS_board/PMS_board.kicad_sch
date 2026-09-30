@@ -1437,6 +1437,52 @@
 			)
 		)
 	)
+	(sheet
+		(at 204.47 82.55)
+		(size 39.37 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ddc3167e-229a-48be-8d0f-fd3ea3301d26")
+		(property "Sheetname" "Power Smoothing + Conversion"
+			(at 204.47 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SmoothingConversion.kicad_sch"
+			(at 204.47 116.1546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PMS_board"
+				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52"
+					(page "8")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

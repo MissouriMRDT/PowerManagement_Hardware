@@ -460,6 +460,10 @@
     [
       "63d8c70c-510f-4be7-9ef0-0f3ce9f476db",
       "Microcontroller"
+    ],
+    [
+      "ddc3167e-229a-48be-8d0f-fd3ea3301d26",
+      "Power Smoothing + Conversion"
     ]
   ],
   "text_variables": {},
