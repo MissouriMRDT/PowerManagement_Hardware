@@ -640,6 +640,28 @@
 		(color 0 0 0 0)
 		(uuid "1edff8c0-452c-46bd-8267-c1d3407b63fa")
 	)
+	(junction
+		(at 101.6 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8d80915-824b-4e57-a636-916939e7719d")
+	)
+	(junction
+		(at 101.6 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b929ab93-8bb0-4fc6-8194-0db42dbe4631")
+	)
+	(wire
+		(pts
+			(xy 91.44 161.29) (xy 91.44 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2be11ef1-c97d-4868-b46d-d630fbb165eb")
+	)
 	(wire
 		(pts
 			(xy 66.04 154.94) (xy 66.04 157.48)
@@ -662,6 +684,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 152.4) (xy 101.6 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d41e882-0768-44f0-8525-e38920b903d0")
+	)
+	(wire
+		(pts
 			(xy 53.34 180.34) (xy 53.34 173.99)
 		)
 		(stroke
@@ -669,6 +701,16 @@
 			(type default)
 		)
 		(uuid "3e9f85ef-4b09-4e23-9f92-398a90eb1eca")
+	)
+	(wire
+		(pts
+			(xy 91.44 168.91) (xy 91.44 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406e0d0b-8bb7-4af0-9d36-672b91181e5c")
 	)
 	(wire
 		(pts
@@ -702,6 +744,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 154.94) (xy 114.3 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b4179e-903a-4235-843d-2ad5663838c3")
+	)
+	(wire
+		(pts
 			(xy 43.18 161.29) (xy 43.18 154.94)
 		)
 		(stroke
@@ -709,6 +761,26 @@
 			(type default)
 		)
 		(uuid "8b69d281-3992-435d-a75c-3ee9c61e1784")
+	)
+	(wire
+		(pts
+			(xy 99.06 180.34) (xy 101.6 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903e34be-329f-4881-a48c-9bb4362609fa")
+	)
+	(wire
+		(pts
+			(xy 101.6 154.94) (xy 101.6 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e07363-555a-4ddd-b0bf-19bee43dd3bf")
 	)
 	(wire
 		(pts
@@ -722,6 +794,46 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 173.99) (xy 101.6 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad3a08c2-20b0-4b04-a5fb-7a49b2f9f78e")
+	)
+	(wire
+		(pts
+			(xy 91.44 154.94) (xy 101.6 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af5a4704-d4f7-4a05-a1c8-9d7e5047c691")
+	)
+	(wire
+		(pts
+			(xy 111.76 180.34) (xy 115.57 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4914473-8fda-4db0-88b3-8d52801c457c")
+	)
+	(wire
+		(pts
+			(xy 91.44 173.99) (xy 101.6 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3bbb63c-10c3-44fe-a2d7-135b490696cd")
+	)
+	(wire
+		(pts
 			(xy 53.34 154.94) (xy 53.34 157.48)
 		)
 		(stroke
@@ -729,6 +841,16 @@
 			(type default)
 		)
 		(uuid "cef284a1-b39d-4663-a0ab-5641b05367f7")
+	)
+	(wire
+		(pts
+			(xy 101.6 180.34) (xy 101.6 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9234773-cdb3-4f30-87e0-48f8ec85cb2d")
 	)
 	(wire
 		(pts
@@ -760,6 +882,26 @@
 		)
 		(uuid "f42b9745-691b-484e-b264-4eb098100e52")
 	)
+	(wire
+		(pts
+			(xy 111.76 172.72) (xy 111.76 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe2850a4-45cf-4d2d-801c-7629c7936165")
+	)
+	(label "ESTOP"
+		(at 101.6 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a673ca20-7586-4d71-95fb-abd628cab8eb")
+	)
 	(label "ESTOP"
 		(at 53.34 152.4 0)
 		(effects
@@ -769,6 +911,28 @@
 			(justify left bottom)
 		)
 		(uuid "bcb8952e-41ca-4ca5-a242-bdf4bc1c4cd0")
+	)
+	(hierarchical_label "PACK+"
+		(shape input)
+		(at 115.57 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3aedda70-8428-4cd1-8c35-3f989e000201")
+	)
+	(hierarchical_label "PACK-"
+		(shape input)
+		(at 99.06 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "886a083d-2082-4960-aee5-ca212203d109")
 	)
 	(hierarchical_label "PACK-"
 		(shape input)
@@ -791,6 +955,84 @@
 			(justify left)
 		)
 		(uuid "eb622e52-f53c-42e5-8319-e2d8ec980f1c")
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 114.3 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a214a94-744f-47f5-96e5-53449ef8464b")
+		(property "Reference" "#PWR019"
+			(at 114.3 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 114.3 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 114.3 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3f52ed9-bc3a-454a-b90c-265d02c3950c")
+		)
+		(instances
+			(project "PMS_board"
+				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Diode:1N53xxB")
@@ -1036,6 +1278,177 @@
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52"
 					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Relay_SPST-NO")
+		(at 106.68 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "985c3f7e-ba7e-4075-9eb5-1c08207624c1")
+		(property "Reference" "K2"
+			(at 118.11 163.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AZSR190"
+			(at 118.11 166.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
+			(at 118.11 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Relay SPST, normally open, EN50005"
+			(at 106.68 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A2"
+			(uuid "37b4670e-32f7-43e6-a2b3-7c3653c61f07")
+		)
+		(pin "14"
+			(uuid "ae8582a7-1f1a-43e5-bfa8-33e183a5d120")
+		)
+		(pin "A1"
+			(uuid "8cdd4308-a278-4c96-b2b6-00aa26941542")
+		)
+		(pin "13"
+			(uuid "1e608345-ac9c-4b6f-8a3c-0dbc9a453ea3")
+		)
+		(instances
+			(project "PMS_board"
+				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N53xxB")
+		(at 91.44 165.1 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9d716d4e-47a0-48ac-ae91-d85859865a3a")
+		(property "Reference" "D7"
+			(at 88.9 163.8299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5359B"
+			(at 88.9 166.3699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201_P15.24mm_Horizontal"
+			(at 95.885 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/1n5345b.pdf"
+			(at 91.44 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5000mW Zener Diode, DO-201"
+			(at 91.44 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45f32ace-1966-41c4-bead-f37ca3023d4d")
+		)
+		(pin "2"
+			(uuid "c71cd6f7-9883-4629-a5a9-41d1853b6274")
+		)
+		(instances
+			(project "PMS_board"
+				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52"
+					(reference "D7")
 					(unit 1)
 				)
 			)
