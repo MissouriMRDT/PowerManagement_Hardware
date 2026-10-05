@@ -182,6 +182,306 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MIC5060YML-TR_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U11"
+				(at 22.86 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "MIC5060YML-TR"
+				(at 22.86 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "DFN33-8LD-PL-1_MCL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC5060-Ultra-Small-High-Side-MOSFET-Driver-DS20006615.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "MIC5060YML-TR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DFN33-8LD-PL-1_MCL DFN33-8LD-PL-1_MCL-M DFN33-8LD-PL-1_MCL-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MIC5060YML-TR_1_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -15.24) (xy 38.1 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 38.1 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 38.1 -15.24) (xy 38.1 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 7.62)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "INPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "SOURCE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 45.72 -10.16 180)
+					(length 7.62)
+					(name "GATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 45.72 -7.62 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 45.72 -5.08 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 45.72 -2.54 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 45.72 0 180)
+					(length 7.62)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "STL130N6F7_1"
 			(pin_names
 				(offset 0.254)
@@ -4485,12 +4785,6 @@
 		(uuid "bb5711b0-e9de-406f-8c17-e910b92a9181")
 	)
 	(junction
-		(at 254 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1b8b7c5-f1e6-4caf-aa99-e50934debd77")
-	)
-	(junction
 		(at 39.37 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4776,16 +5070,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 157.48) (xy 254 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1eafb425-67f7-4d41-b531-e6af3c2173e4")
-	)
-	(wire
-		(pts
 			(xy 30.48 158.75) (xy 30.48 179.07)
 		)
 		(stroke
@@ -4886,7 +5170,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 160.02) (xy 247.65 160.02)
+			(xy 255.27 160.02) (xy 247.65 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4956,6 +5240,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 142.24) (xy 255.27 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c9f70bf-51b5-401e-95ec-2e6c80e62f91")
+	)
+	(wire
+		(pts
 			(xy 35.56 161.29) (xy 35.56 179.07)
 		)
 		(stroke
@@ -4983,16 +5277,6 @@
 			(type default)
 		)
 		(uuid "5b4685a2-d826-4fae-9693-91d78e817b05")
-	)
-	(wire
-		(pts
-			(xy 254 149.86) (xy 242.57 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c13189a-875a-4998-8838-615a465cac28")
 	)
 	(wire
 		(pts
@@ -5296,16 +5580,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 149.86) (xy 254 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc961fe3-12b2-485b-90a4-f02c174ed95d")
-	)
-	(wire
-		(pts
 			(xy 22.86 100.33) (xy 36.83 100.33)
 		)
 		(stroke
@@ -5336,7 +5610,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 149.86) (xy 254 149.86)
+			(xy 242.57 149.86) (xy 267.97 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5964,7 +6238,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "MIC5060YML-TR"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC5060-Ultra-Small-High-Side-MOSFET-Driver-DS20006615.pdf"
 			(at 242.57 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6067,7 +6341,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "MIC5060YML-TR"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC5060-Ultra-Small-High-Side-MOSFET-Driver-DS20006615.pdf"
 			(at 242.57 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6287,7 +6561,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 254 142.24 180)
+		(at 255.27 142.24 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6298,7 +6572,7 @@
 		(fields_autoplaced yes)
 		(uuid "41b9d155-e707-4773-a1cf-41031ae331ab")
 		(property "Reference" "#PWR021"
-			(at 254 135.89 0)
+			(at 255.27 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6309,7 +6583,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 137.16 0)
+			(at 255.27 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6319,7 +6593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 142.24 0)
+			(at 255.27 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6330,7 +6604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 142.24 0)
+			(at 255.27 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6341,7 +6615,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 142.24 0)
+			(at 255.27 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6407,7 +6681,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "MIC5060YML-TR"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC5060-Ultra-Small-High-Side-MOSFET-Driver-DS20006615.pdf"
 			(at 35.56 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -6666,7 +6940,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "MIC5060YML-TR"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC5060-Ultra-Small-High-Side-MOSFET-Driver-DS20006615.pdf"
 			(at 48.26 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -6726,6 +7000,7 @@
 		)
 	)
 	(symbol
+		(lib_name "MIC5060YML-TR_1")
 		(lib_id "Symbols:MIC5060YML-TR")
 		(at 44.45 31.75 0)
 		(unit 1)
@@ -6769,7 +7044,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "MIC5060YML-TR"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC5060-Ultra-Small-High-Side-MOSFET-Driver-DS20006615.pdf"
 			(at 44.45 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7452,7 +7727,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "MIC5060YML-TR"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC5060-Ultra-Small-High-Side-MOSFET-Driver-DS20006615.pdf"
 			(at 242.57 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7669,7 +7944,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 254 153.67 180)
+		(at 255.27 156.21 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7679,7 +7954,7 @@
 		(dnp no)
 		(uuid "b8301979-1bf7-4785-a42e-624a7b1042d9")
 		(property "Reference" "C3"
-			(at 257.81 155.8291 0)
+			(at 259.08 158.3691 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7690,7 +7965,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 257.81 153.2891 0)
+			(at 259.08 155.8291 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7701,7 +7976,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
-			(at 253.0348 149.86 0)
+			(at 254.3048 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7712,7 +7987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 153.67 0)
+			(at 255.27 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7723,7 +7998,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 254 153.67 0)
+			(at 255.27 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8246,7 +8521,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=15659&prodName=SSM3K2615R"
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/SSM3K2615R_datasheet_en_20260705.pdf?did=15672&prodName=SSM3K2615R"
 			(at 97.79 100.33 0)
 			(hide yes)
 			(show_name no)
