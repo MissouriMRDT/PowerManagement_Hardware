@@ -429,7 +429,7 @@
         "uuid": "282246b0-e0d8-4997-b3ee-58bf10355d52"
       }
     ],
-    "used_designators": "MOSFET1-2,#FLG1-2,R1-44,IC1,D1-6,L1,#PWR1-26,SW1,C1-23,U1-6,BT1,BT3-4,F1-3,Q1-2,K1",
+    "used_designators": "MOSFET1-4,#FLG1-2,R1-44,IC1,D1-6,L1,#PWR1-26,SW1,C1-27,U1-6,BT1,BT3-4,F1-8,Q1-2,K1,J1-8,TP1-4",
     "variants": []
   },
   "sheets": [
@@ -464,6 +464,10 @@
     [
       "ddc3167e-229a-48be-8d0f-fd3ea3301d26",
       "Power Smoothing + Conversion"
+    ],
+    [
+      "1ce466be-8c1f-42c9-b575-af9917f46ea9",
+      "Output Rails"
     ]
   ],
   "text_variables": {},
