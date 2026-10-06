@@ -3585,6 +3585,12 @@
 		(uuid "1d315531-4623-4489-bae1-7bb1b703cef1")
 	)
 	(junction
+		(at 106.68 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23d9671f-4930-45f5-a42f-95162d481df9")
+	)
+	(junction
 		(at 36.83 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3685,6 +3691,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d27236bd-920a-4754-ac81-405cade50010")
+	)
+	(junction
+		(at 104.14 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d76b3945-45c6-4dbc-a79b-edf252e5587e")
+	)
+	(junction
+		(at 109.22 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de0f204d-0bda-49da-8e03-90d6f6780704")
 	)
 	(junction
 		(at 80.01 71.12)
@@ -4076,6 +4094,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 30.48) (xy 104.14 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "451597a9-dabe-4b8d-940e-34f31a2b668e")
+	)
+	(wire
+		(pts
 			(xy 43.18 97.79) (xy 48.26 97.79)
 		)
 		(stroke
@@ -4223,6 +4251,16 @@
 			(type default)
 		)
 		(uuid "70135751-0cfd-4528-b567-ce0b09a69993")
+	)
+	(wire
+		(pts
+			(xy 109.22 30.48) (xy 142.24 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7342fdd3-045c-43ef-9f85-ed1ffb858226")
 	)
 	(wire
 		(pts
@@ -4516,6 +4554,26 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 30.48) (xy 109.22 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7bf1656-3842-4edd-9672-992cd3c28557")
+	)
+	(wire
+		(pts
+			(xy 104.14 30.48) (xy 106.68 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca5b6bef-9426-4571-8d0a-0564e66f0f6a")
+	)
+	(wire
+		(pts
 			(xy 151.13 119.38) (xy 151.13 157.48)
 		)
 		(stroke
@@ -4543,6 +4601,16 @@
 			(type default)
 		)
 		(uuid "d92c15c3-b684-4d05-b531-c96cfb4b67d1")
+	)
+	(wire
+		(pts
+			(xy 142.24 30.48) (xy 142.24 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e030749a-cf32-45ba-81e4-a81943ace6bb")
 	)
 	(wire
 		(pts
@@ -7244,6 +7312,16 @@
 		(pin "PACK+" input
 			(at 148.59 87.63 90)
 			(uuid "c64712a3-025a-4bbc-8a5d-777c6ff8018a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUX" input
+			(at 142.24 87.63 90)
+			(uuid "75a82fc2-0d9a-4139-8f9d-2beab1c02ec7")
 			(effects
 				(font
 					(size 1.27 1.27)
