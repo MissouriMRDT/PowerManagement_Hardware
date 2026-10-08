@@ -2749,7 +2749,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.snapeda.com/parts/NHD-0420H1Z-FL-GBW-33V3/Newhaven%20Display/datasheet/"
 			(at 130.81 92.71 0)
 			(hide yes)
 			(show_name no)
