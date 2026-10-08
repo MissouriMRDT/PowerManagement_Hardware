@@ -1581,6 +1581,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Find Diode to use\n"
+		(exclude_from_sim no)
+		(at 162.052 153.162 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "155cf935-a69c-4e86-84aa-507497263c7b")
+	)
+	(text "Find FET to use\n"
+		(exclude_from_sim no)
+		(at 112.776 72.898 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "85b80fd9-ff2c-4664-8f7e-62a000285de5")
+	)
+	(text "Find Diode to use\n"
+		(exclude_from_sim no)
+		(at 62.738 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f2ddd0a6-7561-450a-9335-b1e5b78fac25")
+	)
 	(junction
 		(at 128.27 71.12)
 		(diameter 0)
