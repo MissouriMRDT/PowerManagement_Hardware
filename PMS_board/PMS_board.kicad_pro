@@ -537,7 +537,7 @@
         "uuid": "282246b0-e0d8-4997-b3ee-58bf10355d52"
       }
     ],
-    "used_designators": "MOSFET1-6,#FLG1-2,R1-44,IC1,D1-6,D14-18,L1-2,#PWR1-26,#PWR30-31,#PWR33-65,SW1,C1-63,U1-7,U9,U12-14,BT1,BT3-4,F1-15,Q1-2,Q5-11,K1,K3-4,J1-14,J16,TP1-10",
+    "used_designators": "IC1,#FLG1-2,R1-44,MOSFET1-6,#PWR1-26,#PWR39-66,L1,D1-6,D14-18,SW1,C1-45,U1-6,U9,U14-18,BT1,BT3-4,F1-14,Q1-2,K1,J1-14,TP1-10",
     "variants": []
   },
   "sheets": [
