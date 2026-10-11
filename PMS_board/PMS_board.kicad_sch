@@ -1405,7 +1405,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 160.02 129.54 0)
+		(at 161.29 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1416,7 +1416,7 @@
 		(fields_autoplaced yes)
 		(uuid "68fe66dc-9745-4064-825a-038606a9b879")
 		(property "Reference" "H1"
-			(at 162.56 128.2699 0)
+			(at 163.83 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1427,7 +1427,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 162.56 130.8099 0)
+			(at 163.83 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1438,7 +1438,7 @@
 			)
 		)
 		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
-			(at 160.02 129.54 0)
+			(at 161.29 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1449,7 +1449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 129.54 0)
+			(at 161.29 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1460,7 +1460,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 160.02 129.54 0)
+			(at 161.29 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1967,7 +1967,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 160.02 139.7 0)
+		(at 161.29 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1978,7 +1978,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5d427a8-a1d3-4607-8778-ebfaa6a7db32")
 		(property "Reference" "H3"
-			(at 162.56 138.4299 0)
+			(at 163.83 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1989,7 +1989,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 162.56 140.9699 0)
+			(at 163.83 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2000,7 +2000,7 @@
 			)
 		)
 		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
-			(at 160.02 139.7 0)
+			(at 161.29 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2011,7 +2011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 139.7 0)
+			(at 161.29 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2022,7 +2022,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 160.02 139.7 0)
+			(at 161.29 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2043,7 +2043,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 160.02 134.62 0)
+		(at 161.29 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2054,7 +2054,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5da12b1-757c-4c2e-974f-e9cd0cd39a96")
 		(property "Reference" "H2"
-			(at 162.56 133.3499 0)
+			(at 163.83 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2065,7 +2065,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 162.56 135.8899 0)
+			(at 163.83 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2076,7 +2076,7 @@
 			)
 		)
 		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
-			(at 160.02 134.62 0)
+			(at 161.29 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2087,7 +2087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 134.62 0)
+			(at 161.29 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2098,7 +2098,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 160.02 134.62 0)
+			(at 161.29 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2198,7 +2198,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 160.02 144.78 0)
+		(at 161.29 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2209,7 +2209,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4032bdd-6523-421d-8c88-43558e90bbbf")
 		(property "Reference" "H4"
-			(at 162.56 143.5099 0)
+			(at 163.83 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2220,7 +2220,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 162.56 146.0499 0)
+			(at 163.83 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2231,7 +2231,7 @@
 			)
 		)
 		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
-			(at 160.02 144.78 0)
+			(at 161.29 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2242,7 +2242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 144.78 0)
+			(at 161.29 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2253,7 +2253,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 160.02 144.78 0)
+			(at 161.29 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
