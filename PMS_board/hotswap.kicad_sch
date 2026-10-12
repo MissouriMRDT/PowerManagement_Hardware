@@ -1860,16 +1860,6 @@
 		)
 		(uuid "85b80fd9-ff2c-4664-8f7e-62a000285de5")
 	)
-	(text "heirarchial labels still need\nto be put on exterior of sheet"
-		(exclude_from_sim no)
-		(at 138.684 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "eef82f1f-86f1-414e-830c-33e33b8667a9")
-	)
 	(junction
 		(at 100.33 78.74)
 		(diameter 0)
