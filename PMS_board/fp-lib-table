@@ -4,4 +4,6 @@
 	(lib (name "NHD-0420H1Z-FL-GBW-33V3") (type "KiCad") (uri "${KIPRJMOD}/../lib/Footprints/NHD-0420H1Z-FL-GBW-33V3") (options "") (descr ""))
 	(lib (name "LM74800QDRRRQ1") (type "KiCad") (uri "${KIPRJMOD}/../lib/Footprints/LM74800QDRRRQ1") (options "") (descr ""))
 	(lib (name "MIC29300-12WU") (type "KiCad") (uri "${KIPRJMOD}/../lib/Footprints/MIC29300-12WU.pretty") (options "") (descr ""))
+	(lib (name "MCP3204T-CIST") (type "KiCad") (uri "${KIPRJMOD}/../lib/Footprints/MCP3204T-CIST.pretty") (options "") (descr ""))
+	(lib (name "TLV7011DCKR") (type "KiCad") (uri "${KIPRJMOD}/../lib/Footprints/TLV7011DCKR.pretty") (options "") (descr ""))
 )

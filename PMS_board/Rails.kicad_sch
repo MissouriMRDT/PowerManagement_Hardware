@@ -962,145 +962,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -1602,18 +1463,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "730f3425-2954-4d02-9abc-b92522c5ed56")
-	)
-	(junction
-		(at 40.64 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "755374da-835f-48c2-a7b8-3b188626e6bc")
-	)
-	(junction
-		(at 171.45 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "814c76cb-2034-4c1d-b8c6-103c415bd4c9")
 	)
 	(junction
 		(at 162.56 90.17)
@@ -2976,12 +2825,6 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "D14")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3060,12 +2903,6 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3140,12 +2977,6 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
 					(reference "#PWR072")
 					(unit 1)
 				)
@@ -3232,12 +3063,6 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "J10")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3316,12 +3141,6 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
 					(reference "J8")
 					(unit 1)
 				)
@@ -3408,12 +3227,6 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "R43")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3492,12 +3305,6 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
 					(reference "R32")
 					(unit 1)
 				)
@@ -3584,12 +3391,6 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "J6")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3672,9 +3473,96 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "R4")
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 60.96 116.84 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "38e1abcf-8507-4d69-9143-c393ac463864")
+		(property "Reference" "D23"
+			(at 57.15 117.1574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3V3_LED_GRN"
+			(at 57.15 119.6974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 60.96 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 60.96 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cefd07e4-fca3-4e0c-a18f-7d74409be596")
+		)
+		(pin "2"
+			(uuid "e376cb15-f072-429c-88b3-2d5dea0956dd")
+		)
+		(instances
+			(project "PMS_board"
+				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -3771,12 +3659,6 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "D19")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3851,12 +3733,6 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
 					(reference "#PWR071")
 					(unit 1)
 				)
@@ -3943,12 +3819,6 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "J5")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4027,12 +3897,6 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
 					(reference "J9")
 					(unit 1)
 				)
@@ -4130,97 +3994,6 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 171.45 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6760f4c0-4b96-46ae-b470-c7fbf3bfe70a")
-		(property "Reference" "TP3"
-			(at 173.99 107.1879 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 173.99 109.7279 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Schrack-RT2-FormC_RM5mm"
-			(at 176.53 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 171.45 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5d289c94-1aff-4524-8a1c-8598932f397e")
-		)
-		(instances
-			(project "PMS_board"
-				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4299,12 +4072,6 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
 					(reference "R33")
 					(unit 1)
 				)
@@ -4391,12 +4158,6 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "R35")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4472,12 +4233,6 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
 					(reference "TP1")
 					(unit 1)
 				)
@@ -4564,12 +4319,6 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "J4")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4645,97 +4394,6 @@
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 40.64 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ae88860-8342-4eb1-8bd0-e09dbf47a6cc")
-		(property "Reference" "TP9"
-			(at 43.18 86.8679 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 43.18 89.4079 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Schrack-RT2-FormC_RM5mm"
-			(at 45.72 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 40.64 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9ac6b0d0-509e-41f0-a6e7-dd9e97c8b928")
-		)
-		(instances
-			(project "PMS_board"
-				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -4817,12 +4475,6 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
 					(reference "R34")
 					(unit 1)
 				)
@@ -4909,12 +4561,6 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "J1")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4993,12 +4639,6 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "J14")
-					(unit 1)
-				)
-			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
 					(reference "J14")
 					(unit 1)
 				)
@@ -5096,12 +4736,6 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "D15")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5181,12 +4815,6 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5261,12 +4889,6 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
 					(reference "#PWR073")
 					(unit 1)
 				)
@@ -5353,12 +4975,6 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "J3")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5434,12 +5050,6 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
 					(reference "TP5")
 					(unit 1)
 				)
@@ -5522,12 +5132,6 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5606,9 +5210,81 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "#PWR069")
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 69.85 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc24d247-310f-4c30-8e65-77cd6aeed6de")
+		(property "Reference" "#PWR0118"
+			(at 69.85 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 69.85 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 69.85 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4fc488ee-6a5e-4d2a-b0b6-02c6dbd64598")
+		)
+		(instances
+			(project "PMS_board"
+				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -5690,12 +5366,6 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
 					(reference "J2")
 					(unit 1)
 				)
@@ -5788,12 +5458,6 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "J12")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5876,12 +5540,6 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "R44")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5960,12 +5618,6 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
 					(reference "J15")
 					(unit 1)
 				)
@@ -6063,12 +5715,6 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "D17")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6147,12 +5793,6 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
 					(reference "J7")
 					(unit 1)
 				)
@@ -6236,195 +5876,6 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 60.96 116.84 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "df7d38df-d711-4bbc-be9c-d54bd023c025")
-		(property "Reference" "D20"
-			(at 57.15 117.1574 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3V3_LED_GRN"
-			(at 57.15 119.6974 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 60.96 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 60.96 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "103c6dca-946b-4012-9a17-dc6f7b6e8333")
-		)
-		(pin "2"
-			(uuid "1d449f15-4aaa-4d33-b09b-147ad41f478e")
-		)
-		(instances
-			(project "PMS_board"
-				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 69.85 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e94a9047-f9ee-42d5-b9c5-549895eafcc3")
-		(property "Reference" "#PWR027"
-			(at 69.85 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 69.85 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 69.85 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9e671a2b-8d11-4152-9b5e-f6adf3214766")
-		)
-		(instances
-			(project "PMS_board"
-				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6499,12 +5950,6 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
 					(reference "#PWR041")
 					(unit 1)
 				)
@@ -6602,12 +6047,6 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "D16")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6690,12 +6129,6 @@
 					(unit 1)
 				)
 			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "J13")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6770,12 +6203,6 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -6858,12 +6285,6 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e/1ce466be-8c1f-42c9-b575-af9917f46ea9"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-			(project "Outputs"
-				(path "/6f8c6a7a-922c-4eac-9d50-2c9bb0b220a7/1ce466be-8c1f-42c9-b575-af9917f46ea9"
 					(reference "J11")
 					(unit 1)
 				)

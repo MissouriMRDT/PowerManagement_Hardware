@@ -1638,78 +1638,6 @@
 		(color 0 0 0 0)
 		(uuid "f12d1049-39fc-417e-b3da-e70f3e0fd4d9")
 	)
-	(bus_entry
-		(at 71.12 134.62)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d84be24-8e8b-4e04-9ee4-5cb0409d5bdc")
-	)
-	(bus_entry
-		(at 71.12 121.92)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2925b45b-364c-4ec1-b6dc-b03ed5f99f37")
-	)
-	(bus_entry
-		(at 71.12 116.84)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d6a37f2-49b9-42a1-b068-10f3abbecd2a")
-	)
-	(bus_entry
-		(at 71.12 127)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "327c5778-2875-45ac-b1c2-235af84e28dd")
-	)
-	(bus_entry
-		(at 71.12 119.38)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93b046b5-254b-4c20-85df-b5056f171af8")
-	)
-	(bus_entry
-		(at 71.12 129.54)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c21996cf-0143-488a-b97d-210efdbeb0ca")
-	)
-	(bus_entry
-		(at 71.12 124.46)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7b3e7a5-eca0-4713-bd3a-964bd0ef4226")
-	)
-	(bus_entry
-		(at 71.12 132.08)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec9900da-47c2-4ce3-8b4a-65b3bccb4685")
-	)
 	(wire
 		(pts
 			(xy 186.69 104.14) (xy 186.69 109.22)
@@ -1762,6 +1690,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 134.62) (xy 73.66 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c51f959-14f1-4520-9442-dea143e9c104")
+	)
+	(wire
+		(pts
 			(xy 106.68 132.08) (xy 106.68 133.35)
 		)
 		(stroke
@@ -1769,6 +1707,16 @@
 			(type default)
 		)
 		(uuid "1fb0ddf6-113c-4806-ada8-4f08d0052ab3")
+	)
+	(wire
+		(pts
+			(xy 138.43 120.65) (xy 146.05 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2540a63f-9439-4582-9e59-2492dc177a19")
 	)
 	(wire
 		(pts
@@ -1802,6 +1750,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 132.08) (xy 73.66 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38fe00da-6738-4988-b0d4-9e6c89e2fad3")
+	)
+	(wire
+		(pts
 			(xy 156.21 109.22) (xy 156.21 107.95)
 		)
 		(stroke
@@ -1822,6 +1780,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 137.16) (xy 73.66 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e287b6d-dda2-4eb4-9369-a5cf0b508d82")
+	)
+	(wire
+		(pts
 			(xy 106.68 129.54) (xy 104.14 129.54)
 		)
 		(stroke
@@ -1839,6 +1807,16 @@
 			(type default)
 		)
 		(uuid "5198e004-c287-45a4-af67-25a87e8e5139")
+	)
+	(wire
+		(pts
+			(xy 72.39 124.46) (xy 73.66 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac5ea82-e8c0-40ad-9513-9a8ef1c78078")
 	)
 	(wire
 		(pts
@@ -1870,25 +1848,15 @@
 		)
 		(uuid "764e2ff8-392e-4ce1-91ca-49fdbadf6e43")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 66.04 116.84) (xy 71.12 116.84)
+			(xy 72.39 119.38) (xy 73.66 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99462521-b578-43b4-bc3a-f5b7799a1529")
-	)
-	(bus
-		(pts
-			(xy 71.12 134.62) (xy 71.12 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adf01a47-4cfb-4589-be8e-381091dc0fa0")
+		(uuid "79b79fd7-0f7c-46fe-871a-ad253cff46b8")
 	)
 	(wire
 		(pts
@@ -1922,13 +1890,23 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 120.65) (xy 146.05 120.65)
+			(xy 72.39 129.54) (xy 73.66 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c57c7eba-2a3a-4fae-97e1-234ed752333f")
+		(uuid "be8eae4c-11bf-49cd-8a5d-56bbcdc5629d")
+	)
+	(wire
+		(pts
+			(xy 72.39 127) (xy 73.66 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca58c59-619f-4ac7-a8e2-b8dcec5f9091")
 	)
 	(wire
 		(pts
@@ -1960,15 +1938,81 @@
 		)
 		(uuid "f4468aa2-e931-4254-89f7-c25bf0ff5672")
 	)
-	(label "BuzzerSignal"
-		(at 130.81 120.65 0)
+	(wire
+		(pts
+			(xy 72.39 121.92) (xy 73.66 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5858868-03e8-4d2b-8088-4b20f0995d8b")
+	)
+	(hierarchical_label "LCDpin3"
+		(shape tri_state)
+		(at 72.39 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "85bce94c-24f1-4912-bd9b-798501559700")
+		(uuid "09d3ec11-b7db-42e6-b573-6f6a265e491c")
+	)
+	(hierarchical_label "LCDpin2"
+		(shape tri_state)
+		(at 72.39 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37e57b25-2368-4dc8-8633-33a6d6c3c6c0")
+	)
+	(hierarchical_label "LCDpin7"
+		(shape tri_state)
+		(at 72.39 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4834783c-3210-4ce1-8e4d-ee258f014c5c")
+	)
+	(hierarchical_label "LCDpin5"
+		(shape tri_state)
+		(at 72.39 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49614603-14c0-4788-88ef-a2dd5c10127a")
+	)
+	(hierarchical_label "LCDpin6"
+		(shape tri_state)
+		(at 72.39 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e1cbd84-91c3-43ae-a3d6-fe6bdeff8e15")
+	)
+	(hierarchical_label "LCDpin0"
+		(shape tri_state)
+		(at 72.39 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f130203-58f0-43d9-be9e-4f209156248d")
 	)
 	(hierarchical_label "E"
 		(shape input)
@@ -1981,16 +2025,27 @@
 		)
 		(uuid "690f5d9d-4497-4485-8788-dbd66bd127b2")
 	)
-	(hierarchical_label "D[0..7]"
-		(shape bidirectional)
-		(at 66.04 116.84 180)
+	(hierarchical_label "Buzzer_Signal"
+		(shape input)
+		(at 138.43 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "92d01c43-0818-4031-a6af-84355862360f")
+		(uuid "8160cdae-b1df-42f4-8db8-059d5622669d")
+	)
+	(hierarchical_label "LCDpin1"
+		(shape tri_state)
+		(at 72.39 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83bfb824-34e8-4ad5-ab4d-0ec53dc71b79")
 	)
 	(hierarchical_label "RS"
 		(shape input)
@@ -2003,8 +2058,19 @@
 		)
 		(uuid "991c86ef-a9b4-4edc-aaaf-f7c7e5f59a52")
 	)
+	(hierarchical_label "LCDpin4"
+		(shape tri_state)
+		(at 72.39 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e08a885-c211-461e-a85b-06a8d4ae6328")
+	)
 	(hierarchical_label "RW"
-		(shape input)
+		(shape bidirectional)
 		(at 73.66 111.76 180)
 		(effects
 			(font

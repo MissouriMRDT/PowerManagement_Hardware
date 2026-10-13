@@ -537,7 +537,7 @@
         "uuid": "282246b0-e0d8-4997-b3ee-58bf10355d52"
       }
     ],
-    "used_designators": "IC1,#FLG1-2,R1-44,MOSFET1-6,#PWR1-27,#PWR39-66,#PWR69-75,L1,D1-6,D14-20,SW1,C1-45,U1-6,U9,U14-18,BT1,BT3-4,F1-14,Q1-2,K1,J1-15,TP1-10",
+    "used_designators": "IC1,#FLG1-2,R1-66,R84-105,MOSFET1-6,#PWR1-27,#PWR39-66,#PWR69-75,#PWR82-133,L1,D1-6,D14-20,D22-35,SW1,C1-45,C60,U1-6,U9-10,U13-22,U24-27,BT1,BT3-4,F1-14,Q1-5,Q9,Q12,K1,J1-14,J18-19,TP1-36,Conn1",
     "variants": []
   },
   "sheets": [
@@ -576,6 +576,10 @@
     [
       "1ce466be-8c1f-42c9-b575-af9917f46ea9",
       "Output Rails"
+    ],
+    [
+      "8e17517b-8af0-4a0a-8538-1c3d04425d04",
+      "Reverse Voltage & Brake Chopper"
     ]
   ],
   "text_variables": {},

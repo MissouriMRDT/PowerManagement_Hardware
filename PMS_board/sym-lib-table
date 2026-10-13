@@ -8,4 +8,5 @@
 	(lib (name "IRFS7530TRL7PP") (type "KiCad") (uri "${KIPRJMOD}/../lib/Symbols/2026-10-09_00-46-14.kicad_sym") (options "") (descr ""))
 	(lib (name "MIC29300-12WU") (type "KiCad") (uri "${KIPRJMOD}/../lib/Symbols/MIC29300-12WU.kicad_sym") (options "") (descr ""))
 	(lib (name "TLV7011DCKR") (type "KiCad") (uri "${KIPRJMOD}/../lib/Symbols/TLV7011DCKR.kicad_sym") (options "") (descr ""))
+	(lib (name "MCP3204T-CIST") (type "KiCad") (uri "${KIPRJMOD}/../lib/Symbols/MCP3204T-CIST.kicad_sym") (options "") (descr ""))
 )
