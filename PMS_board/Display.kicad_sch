@@ -2115,7 +2115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
 			(at 151.13 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3101,7 +3101,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 175.26 121.92 0)
 			(hide yes)
 			(show_name no)

@@ -9,4 +9,5 @@
 	(lib (name "MIC29300-12WU") (type "KiCad") (uri "${KIPRJMOD}/../lib/Symbols/MIC29300-12WU.kicad_sym") (options "") (descr ""))
 	(lib (name "TLV7011DCKR") (type "KiCad") (uri "${KIPRJMOD}/../lib/Symbols/TLV7011DCKR.kicad_sym") (options "") (descr ""))
 	(lib (name "MCP3204T-CIST") (type "KiCad") (uri "${KIPRJMOD}/../lib/Symbols/MCP3204T-CIST.kicad_sym") (options "") (descr ""))
+	(lib (name "INA186A3IDCK") (type "KiCad") (uri "${KIPRJMOD}/../lib/Symbols/INA186A3IDCK.kicad_sym") (options "") (descr ""))
 )

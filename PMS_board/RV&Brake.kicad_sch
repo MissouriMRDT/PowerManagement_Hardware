@@ -3803,7 +3803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-TO263-7_INF"
+		(property "Footprint" "IRFS7530TRL7PP:PG-TO263-7_INF"
 			(at 104.14 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -4159,7 +4159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 255.27 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4578,7 +4578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 187.6552 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5253,7 +5253,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 33.02 126.6952 0)
 			(hide yes)
 			(show_name no)
@@ -6754,7 +6754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 187.6552 121.92 0)
 			(hide yes)
 			(show_name no)

@@ -4096,7 +4096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TO220-3LD-PL-1_MCH"
+		(property "Footprint" "MIC29300-12WU:TO220-3LD-PL-1_MCH"
 			(at 190.5 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5714,7 +5714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SignalStack:AP63203WU-7_DIO"
+		(property "Footprint" "AP63203WU-7:SO8_DCK_TEX"
 			(at 189.23 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -5807,7 +5807,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 240.9952 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6360,7 +6360,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 187.6552 58.42 0)
 			(hide yes)
 			(show_name no)
