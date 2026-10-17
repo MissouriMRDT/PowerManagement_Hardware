@@ -4031,7 +4031,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
+		(property "Footprint" ""
 			(at 179.07 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4113,7 +4113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 26.416 166.116 90)
 			(hide yes)
 			(show_name no)
@@ -4195,7 +4195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 255.27 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4448,7 +4448,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 101.6 141.2748 0)
 			(hide yes)
 			(show_name no)
@@ -4530,7 +4530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 26.416 152.146 90)
 			(hide yes)
 			(show_name no)
@@ -4612,7 +4612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 29.464 159.766 90)
 			(hide yes)
 			(show_name no)
@@ -4932,7 +4932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 38.354 143.256 90)
 			(hide yes)
 			(show_name no)
@@ -5014,7 +5014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 202.8952 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5251,7 +5251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 256.2352 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5911,7 +5911,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
+		(property "Footprint" ""
 			(at 179.07 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6071,7 +6071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 45.974 169.926 90)
 			(hide yes)
 			(show_name no)
@@ -6546,7 +6546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 67.0052 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -6784,7 +6784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 202.8952 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6866,7 +6866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 32.766 135.636 90)
 			(hide yes)
 			(show_name no)

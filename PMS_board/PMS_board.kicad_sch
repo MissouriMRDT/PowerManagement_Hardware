@@ -2133,7 +2133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
+		(property "Footprint" ""
 			(at 120.65 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -2222,7 +2222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
+		(property "Footprint" ""
 			(at 95.25 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -3010,7 +3010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
+		(property "Footprint" ""
 			(at 163.83 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -3097,7 +3097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_Cyntec_MUN12AD01-SH"
+		(property "Footprint" ""
 			(at 21.59 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -3417,7 +3417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
+		(property "Footprint" ""
 			(at 138.43 167.64 0)
 			(hide yes)
 			(show_name no)

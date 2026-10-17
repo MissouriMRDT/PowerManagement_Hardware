@@ -4092,7 +4092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 185.1152 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4174,7 +4174,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 246.0752 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5054,7 +5054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 232.1052 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5542,7 +5542,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 233.934 48.006 90)
 			(hide yes)
 			(show_name no)
@@ -5702,7 +5702,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" ""
 			(at 165.1 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5946,7 +5946,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 189.23 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6447,7 +6447,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" ""
 			(at 156.21 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6529,7 +6529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 224.536 53.594 90)
 			(hide yes)
 			(show_name no)
@@ -6767,7 +6767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 248.6152 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7007,7 +7007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 187.6552 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7421,7 +7421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 260.0452 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7557,7 +7557,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ffe8bfb6-c92a-41ec-82e5-12cf40586e94")
 		(property "Reference" "C3"
 			(at 228.6 33.0199 0)
@@ -7570,8 +7569,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 228.6 35.5599 0)
+		(property "Value" "100nF"
+			(at 226.06 36.322 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7581,7 +7580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 225.7552 38.1 0)
 			(hide yes)
 			(show_name no)
