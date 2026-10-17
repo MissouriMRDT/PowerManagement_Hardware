@@ -5147,7 +5147,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8939/dcp3603.pdf"
 			(at 198.12 38.1 0)
 			(hide yes)
 			(show_name no)
