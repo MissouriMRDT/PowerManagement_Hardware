@@ -7959,7 +7959,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x07_Pin"
+		(property "Value" "BAT_SENSE2"
 			(at 200.406 86.106 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10042,7 +10042,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x07_Pin"
+		(property "Value" "BAT_SENSE1"
 			(at 200.406 65.786 90)
 			(show_name no)
 			(do_not_autoplace no)

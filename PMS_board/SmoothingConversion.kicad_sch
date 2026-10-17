@@ -5935,7 +5935,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "3V3_GRN"
 			(at 193.04 146.3674 90)
 			(show_name no)
 			(do_not_autoplace no)

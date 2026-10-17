@@ -2115,7 +2115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
+		(property "Footprint" ""
 			(at 151.13 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3091,7 +3091,7 @@
 				)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "BUZZER_RED"
 			(at 173.6725 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)

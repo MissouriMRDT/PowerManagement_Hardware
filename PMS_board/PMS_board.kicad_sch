@@ -2461,7 +2461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
 			(at 204.47 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -2540,7 +2540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
 			(at 231.14 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -2775,7 +2775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
 			(at 231.14 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -2932,7 +2932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
 			(at 204.47 132.08 0)
 			(hide yes)
 			(show_name no)
