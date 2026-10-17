@@ -227,6 +227,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MRDT_Drill_Holes:BATT_PWR_VIA"
 			(pin_numbers
 				(hide yes)
@@ -886,6 +1052,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 147.32 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f175741-1014-4cb1-9bd2-86f6b1a43926")
+	)
+	(junction
+		(at 104.14 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "607c56e9-cf88-4184-a128-b4e141bd1a95")
+	)
+	(junction
+		(at 147.32 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62564553-bff6-46b2-b091-13f35e2cd5c5")
+	)
+	(junction
+		(at 104.14 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92c9aeec-ad18-4e9b-87ef-5199c514cd70")
+	)
 	(no_connect
 		(at 92.71 60.96)
 		(uuid "a2e79765-c043-4c13-8251-c122f537640e")
@@ -942,7 +1132,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 175.26) (xy 149.86 182.88)
+			(xy 157.48 175.26) (xy 157.48 182.88)
 		)
 		(stroke
 			(width 0)
@@ -952,7 +1142,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 176.53) (xy 72.39 181.61)
+			(xy 64.77 179.07) (xy 64.77 184.15)
 		)
 		(stroke
 			(width 0)
@@ -969,6 +1159,16 @@
 			(type default)
 		)
 		(uuid "172f4da5-3316-410c-84b0-14625b207b7d")
+	)
+	(wire
+		(pts
+			(xy 138.43 171.45) (xy 138.43 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b15707b-b6a3-46e5-aaf0-7a2794d7b8ae")
 	)
 	(wire
 		(pts
@@ -989,6 +1189,16 @@
 			(type default)
 		)
 		(uuid "1e8fd803-60bb-4535-a2db-35795d23d6a1")
+	)
+	(wire
+		(pts
+			(xy 147.32 157.48) (xy 147.32 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20bf85bb-5da0-4e67-b546-aa51a8d34b6f")
 	)
 	(wire
 		(pts
@@ -1042,7 +1252,17 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 154.94) (xy 104.14 160.02)
+			(xy 147.32 177.8) (xy 147.32 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff18177-d825-4d8e-ab04-f89f7fdf283c")
+	)
+	(wire
+		(pts
+			(xy 104.14 154.94) (xy 104.14 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1072,6 +1292,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 177.8) (xy 104.14 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f005a97-f37d-4766-a888-f8a813d7548d")
+	)
+	(wire
+		(pts
 			(xy 138.43 60.96) (xy 138.43 66.04)
 		)
 		(stroke
@@ -1082,7 +1312,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 175.26) (xy 104.14 182.88)
+			(xy 104.14 175.26) (xy 104.14 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1112,13 +1342,23 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 154.94) (xy 139.7 160.02)
+			(xy 147.32 154.94) (xy 147.32 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7a02af3b-fb77-49f2-80a4-3d4393a4786c")
+	)
+	(wire
+		(pts
+			(xy 138.43 157.48) (xy 147.32 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da155ea-f0f4-44d9-8372-c211080cfcd3")
 	)
 	(wire
 		(pts
@@ -1142,7 +1382,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 182.88) (xy 153.67 182.88)
+			(xy 157.48 182.88) (xy 161.29 182.88)
 		)
 		(stroke
 			(width 0)
@@ -1159,6 +1399,26 @@
 			(type default)
 		)
 		(uuid "89732148-f113-4953-87a5-68e7e3e357ef")
+	)
+	(wire
+		(pts
+			(xy 95.25 171.45) (xy 95.25 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955e39ce-0756-4a95-82f4-507ed35a460b")
+	)
+	(wire
+		(pts
+			(xy 95.25 157.48) (xy 104.14 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956790e3-9dd6-4210-93df-5c4090ffcf3d")
 	)
 	(wire
 		(pts
@@ -1212,7 +1472,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 157.48) (xy 152.4 160.02)
+			(xy 160.02 157.48) (xy 160.02 160.02)
 		)
 		(stroke
 			(width 0)
@@ -1272,6 +1532,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 163.83) (xy 95.25 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6cbfe13-4abb-4867-a603-ce9263f97aaa")
+	)
+	(wire
+		(pts
 			(xy 129.54 118.11) (xy 129.54 123.19)
 		)
 		(stroke
@@ -1299,6 +1569,26 @@
 			(type default)
 		)
 		(uuid "cb7c0e9f-4507-4397-aab4-428ebbc8b8cd")
+	)
+	(wire
+		(pts
+			(xy 104.14 157.48) (xy 104.14 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceabc3dd-e123-4599-a5a8-4e992ebd1697")
+	)
+	(wire
+		(pts
+			(xy 138.43 163.83) (xy 138.43 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8da7cfd-c4bf-4fee-99eb-83bb420ac368")
 	)
 	(wire
 		(pts
@@ -1332,6 +1622,26 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 177.8) (xy 147.32 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d07e1a-e767-4c35-af29-095a213be1d6")
+	)
+	(wire
+		(pts
+			(xy 95.25 177.8) (xy 104.14 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd653a5-d92d-4b14-a2f0-44390f4683a9")
+	)
+	(wire
+		(pts
 			(xy 171.45 60.96) (xy 171.45 66.04)
 		)
 		(stroke
@@ -1352,7 +1662,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 175.26) (xy 139.7 182.88)
+			(xy 147.32 175.26) (xy 147.32 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1402,7 +1712,7 @@
 	)
 	(global_label "VBATT2"
 		(shape output)
-		(at 152.4 157.48 90)
+		(at 160.02 157.48 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1412,7 +1722,7 @@
 		)
 		(uuid "0704bb2d-84a0-445b-8223-9fac9f58aaf0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 147.9029 90)
+			(at 160.02 147.9029 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1450,7 +1760,7 @@
 	)
 	(global_label "BATTERY_IN1"
 		(shape output)
-		(at 25.4 176.53 270)
+		(at 17.78 179.07 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1460,7 +1770,7 @@
 		)
 		(uuid "1f467e38-c859-4527-80c2-7e080ff974a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4 191.429 90)
+			(at 17.78 193.969 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1474,7 +1784,7 @@
 	)
 	(global_label "BATTERY_IN2"
 		(shape output)
-		(at 48.26 176.53 270)
+		(at 40.64 179.07 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1484,7 +1794,7 @@
 		)
 		(uuid "3310bb96-41ca-4a4f-8b5e-2d2a050454ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.26 191.429 90)
+			(at 40.64 193.969 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1522,7 +1832,7 @@
 	)
 	(global_label "ESTOP"
 		(shape input)
-		(at 139.7 154.94 90)
+		(at 147.32 154.94 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1532,7 +1842,7 @@
 		)
 		(uuid "5e88cae5-65f4-47cb-afec-513d4a4b9f99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 146.0282 90)
+			(at 147.32 146.0282 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1570,7 +1880,7 @@
 	)
 	(global_label "BATTERY_IN2"
 		(shape input)
-		(at 153.67 182.88 0)
+		(at 161.29 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1580,7 +1890,7 @@
 		)
 		(uuid "65baab70-6db7-4e0f-9ad5-db1c6c92e5be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.569 182.88 0)
+			(at 176.189 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1800,10 +2110,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "14a1dfdb-b919-4704-a3a4-3259678bd5f7")
 		(property "Reference" "K1"
-			(at 120.65 166.3699 0)
+			(at 120.65 162.052 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1814,7 +2123,7 @@
 			)
 		)
 		(property "Value" "AZSR190"
-			(at 120.65 168.9099 0)
+			(at 120.65 164.592 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1880,8 +2189,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 72.39 181.61 0)
+		(lib_id "Device:D_Schottky")
+		(at 95.25 167.64 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1889,31 +2199,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f9373fd-307a-4e70-9cdb-8d6af3f34451")
-		(property "Reference" "#PWR0111"
-			(at 72.39 187.96 0)
-			(hide yes)
+		(uuid "17b67598-6ea3-415a-b1e6-0b4400ab174c")
+		(property "Reference" "D14"
+			(at 92.71 166.0524 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 72.39 186.69 0)
+		(property "Value" "D_Schottky"
+			(at 92.71 169.418 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 72.39 181.61 0)
+		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
+			(at 95.25 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1924,7 +2234,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 181.61 0)
+			(at 95.25 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 95.25 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e519f7f4-32c0-42df-ab64-c00744ea5fd5")
+		)
+		(pin "1"
+			(uuid "d59d1446-6c14-471f-8e16-f303c9377120")
+		)
+		(instances
+			(project "PMS_board"
+				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f9373fd-307a-4e70-9cdb-8d6af3f34451")
+		(property "Reference" "#PWR0111"
+			(at 64.77 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1935,7 +2326,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 181.61 0)
+			(at 64.77 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1959,7 +2350,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Drill_Holes:BATT_PWR_VIA")
-		(at 48.26 171.45 0)
+		(at 40.64 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1970,7 +2361,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b6e1b59-ba05-4564-8cb4-c924e9564999")
 		(property "Reference" "V2"
-			(at 52.07 168.2749 0)
+			(at 44.45 170.8149 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1981,7 +2372,7 @@
 			)
 		)
 		(property "Value" "BATT_PWR_VIA"
-			(at 52.07 170.8149 0)
+			(at 44.45 173.3549 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1992,7 +2383,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_UltraFit_02_Vertical"
-			(at 48.26 171.45 0)
+			(at 40.64 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2003,7 +2394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 171.45 0)
+			(at 40.64 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2014,7 +2405,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 171.45 0)
+			(at 40.64 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2588,7 +2979,7 @@
 	)
 	(symbol
 		(lib_id "Relay:Relay_SPST-NO")
-		(at 144.78 167.64 0)
+		(at 152.4 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2596,10 +2987,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b97248fc-86a1-4da9-9e63-6a7684bb0559")
 		(property "Reference" "K2"
-			(at 156.21 166.3699 0)
+			(at 164.338 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2610,7 +3000,7 @@
 			)
 		)
 		(property "Value" "AZSR190"
-			(at 156.21 168.9099 0)
+			(at 164.338 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2621,7 +3011,7 @@
 			)
 		)
 		(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
-			(at 156.21 168.91 0)
+			(at 163.83 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2633,7 +3023,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.azettler.com/pdfs/azsr190.pdf"
-			(at 144.78 167.64 0)
+			(at 152.4 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2644,7 +3034,7 @@
 			)
 		)
 		(property "Description" "Relay SPST, normally open, EN50005"
-			(at 144.78 167.64 0)
+			(at 152.4 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2760,7 +3150,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Drill_Holes:BATT_PWR_VIA")
-		(at 25.4 171.45 0)
+		(at 17.78 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2771,7 +3161,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc73e342-bf59-4987-8ae1-a618725a9eff")
 		(property "Reference" "V1"
-			(at 29.21 168.2749 0)
+			(at 21.59 170.8149 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2782,7 +3172,7 @@
 			)
 		)
 		(property "Value" "BATT_PWR_VIA"
-			(at 29.21 170.8149 0)
+			(at 21.59 173.3549 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2793,7 +3183,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_UltraFit_02_Vertical"
-			(at 25.4 171.45 0)
+			(at 17.78 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2804,7 +3194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 171.45 0)
+			(at 17.78 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2815,7 +3205,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 171.45 0)
+			(at 17.78 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2839,7 +3229,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 182.88 0)
+		(at 147.32 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2850,7 +3240,7 @@
 		(fields_autoplaced yes)
 		(uuid "be5c0938-8493-4435-add9-86c7aa2d784d")
 		(property "Reference" "#PWR019"
-			(at 139.7 189.23 0)
+			(at 147.32 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2861,7 +3251,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 187.96 0)
+			(at 147.32 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2871,7 +3261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 182.88 0)
+			(at 147.32 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2882,7 +3272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 182.88 0)
+			(at 147.32 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2893,7 +3283,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 182.88 0)
+			(at 147.32 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2994,8 +3384,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 138.43 167.64 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4ff94d7-81da-4647-bd0e-b9f89168f4ad")
+		(property "Reference" "D15"
+			(at 135.89 166.0524 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 136.144 169.418 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
+			(at 138.43 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 138.43 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4b6f5537-0667-46ee-a6b5-745cbc364743")
+		)
+		(pin "1"
+			(uuid "8b8000eb-6439-4d84-887a-3e26b28c6ede")
+		)
+		(instances
+			(project "PMS_board"
+				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MRDT_Drill_Holes:BATT_PWR_VIA")
-		(at 72.39 171.45 0)
+		(at 64.77 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3006,7 +3478,7 @@
 		(fields_autoplaced yes)
 		(uuid "e980601a-a108-441a-a205-d49b53b73551")
 		(property "Reference" "V3"
-			(at 76.2 168.2749 0)
+			(at 68.58 170.8149 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3017,7 +3489,7 @@
 			)
 		)
 		(property "Value" "BATT_PWR_VIA"
-			(at 76.2 170.8149 0)
+			(at 68.58 173.3549 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3028,7 +3500,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_UltraFit_02_Vertical"
-			(at 72.39 171.45 0)
+			(at 64.77 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3039,7 +3511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 171.45 0)
+			(at 64.77 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3050,7 +3522,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 171.45 0)
+			(at 64.77 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

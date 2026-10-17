@@ -719,14 +719,44 @@
           "label": "Availability",
           "name": "Availability",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_Part_Number",
+          "name": "DigiKey_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CREATOR",
+          "name": "CREATOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DUPLICATE",
+          "name": "DUPLICATE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VERIFIER",
+          "name": "VERIFIER",
+          "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "U",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -769,7 +799,7 @@
         "uuid": "282246b0-e0d8-4997-b3ee-58bf10355d52"
       }
     ],
-    "used_designators": "IC1,#FLG1-2,R1-66,R84-105,MOSFET1-6,#PWR1-27,#PWR39-66,#PWR69-75,#PWR82-133,L1,D1-6,D14-20,D22-35,SW1,C1-45,C60,U1-6,U9-10,U13-22,U24-27,BT1,BT3-4,F1-14,Q1-5,Q9,Q12,K1,J1-14,J18-19,TP1-36,Conn1",
+    "used_designators": "IC1,#FLG1-2,R1-66,R84-105,MOSFET1-6,#PWR1-27,#PWR39-66,#PWR69-75,#PWR82-133,L1,D1-6,D14-20,D22-37,SW1,C1-45,C60,U1-6,U9-10,U13-22,U24-27,BT1,BT3-4,F1-14,Q1-5,Q9,Q12,K1,J1-14,J18-19,TP1-36,Conn1",
     "variants": []
   },
   "sheets": [
@@ -812,6 +842,10 @@
     [
       "8e17517b-8af0-4a0a-8538-1c3d04425d04",
       "Reverse Voltage & Brake Chopper"
+    ],
+    [
+      "5c0df477-a78d-44ca-8af5-922544171996",
+      "Indicator LEDs"
     ]
   ],
   "text_variables": {},
