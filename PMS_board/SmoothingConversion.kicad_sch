@@ -6098,7 +6098,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-TVSP-DO214-AC-400W_BI"
 			(at 165.1 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -7041,7 +7041,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 156.21 138.43 0)
 			(hide yes)
 			(show_name no)
