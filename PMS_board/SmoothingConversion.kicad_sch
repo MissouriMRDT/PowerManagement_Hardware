@@ -5725,7 +5725,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRR1210.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/SRR1210-180M/2562346"
 			(at 233.68 40.64 0)
 			(hide yes)
 			(show_name no)
