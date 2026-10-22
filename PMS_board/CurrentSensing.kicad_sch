@@ -1741,7 +1741,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:ShuntSMD_BVT-M-R001-1.0"
 			(at 68.072 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -1752,7 +1752,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/isabellenhuette-usa/BVT-M-R001-1-0/16627455"
 			(at 69.85 105.41 0)
 			(hide yes)
 			(show_name no)
