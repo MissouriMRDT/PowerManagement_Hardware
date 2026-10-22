@@ -4278,6 +4278,16 @@
 		)
 		(uuid "06fa18cc-2fcc-4ae2-bfd8-8632becb4b3e")
 	)
+	(text "15A @ Pack voltage\nper motor"
+		(exclude_from_sim no)
+		(at 563.372 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "15fa0f91-18e4-4692-954e-84dc75c44f63")
+	)
 	(text "Motor\n"
 		(exclude_from_sim no)
 		(at 175.26 56.642 0)
@@ -4300,7 +4310,7 @@
 	)
 	(text "AUX"
 		(exclude_from_sim no)
-		(at 489.458 137.922 0)
+		(at 492.506 137.922 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -4328,6 +4338,26 @@
 		)
 		(uuid "41bfde28-82c8-42d5-82fa-6af237e3c9f2")
 	)
+	(text "Turning\nMotors\n"
+		(exclude_from_sim no)
+		(at 563.88 162.306 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "4714fca4-5b77-43b1-8db5-d1b18195c43a")
+	)
+	(text "3A @ 12V"
+		(exclude_from_sim no)
+		(at 418.592 151.638 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4bab0fb3-5f31-4a39-b2ff-a4433d8878a0")
+	)
 	(text "AUX"
 		(exclude_from_sim no)
 		(at 175.26 82.296 0)
@@ -4337,6 +4367,16 @@
 			)
 		)
 		(uuid "4ccf4f0d-4214-429e-a759-403c7f9e8bdb")
+	)
+	(text "3A @ Pack voltage"
+		(exclude_from_sim no)
+		(at 418.084 78.486 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6109e6a5-9a22-474e-af2c-7d108dad5423")
 	)
 	(text "Network"
 		(exclude_from_sim no)
@@ -4348,9 +4388,19 @@
 		)
 		(uuid "844daf20-b69d-49e7-9e74-960f253415c5")
 	)
-	(text "Motor"
+	(text "1A @ 24V"
 		(exclude_from_sim no)
-		(at 562.61 133.604 0)
+		(at 494.03 82.804 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "923d3d70-5317-4d54-917f-e93dedc315f2")
+	)
+	(text "VSCs"
+		(exclude_from_sim no)
+		(at 563.626 102.362 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -4387,6 +4437,26 @@
 			)
 		)
 		(uuid "e0a621e6-cdc3-49e1-bd5d-3e0a082b1c8b")
+	)
+	(text "5A @ Pack voltage\nper motor\n"
+		(exclude_from_sim no)
+		(at 563.626 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6ff48bc-1a75-4457-abe5-bc33c63c2337")
+	)
+	(text "15A @ pack voltage"
+		(exclude_from_sim no)
+		(at 492.252 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f07bb62e-2146-4467-b53b-cc37954bbaa2")
 	)
 	(junction
 		(at 321.31 177.8)
