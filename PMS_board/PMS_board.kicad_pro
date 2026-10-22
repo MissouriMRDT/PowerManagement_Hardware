@@ -817,7 +817,7 @@
         "uuid": "282246b0-e0d8-4997-b3ee-58bf10355d52"
       }
     ],
-    "used_designators": "IC1,#FLG1-2,R1-66,R84-105,MOSFET1-6,#PWR1-27,#PWR31,#PWR39-66,#PWR69-75,#PWR82-133,L1,L3,D1-6,D14-20,D22-37,SW1,C1-45,C60,U1-6,U9-10,U13-22,U24-27,BT1,BT3-4,F1-14,Q1-5,Q9,Q12,K1,J1-14,J18-19,TP1-36,Conn1",
+    "used_designators": "IC1,#FLG1-2,R1-66,R84-108,MOSFET1-6,#PWR1-27,#PWR31,#PWR39-66,#PWR69-75,#PWR78,#PWR81-148,L1,L3,D1-7,D14-20,D22-42,SW1,C1-45,C60,U1-6,U9-10,U13-22,U24-31,BT1,BT3-4,F1-14,Q1-6,Q9,Q12,K1,J1-14,J18-34,TP1-36,Conn1",
     "variants": []
   },
   "sheets": [
@@ -852,18 +852,6 @@
     [
       "ddc3167e-229a-48be-8d0f-fd3ea3301d26",
       "Power Smoothing + Conversion"
-    ],
-    [
-      "1ce466be-8c1f-42c9-b575-af9917f46ea9",
-      "Output Rails"
-    ],
-    [
-      "8e17517b-8af0-4a0a-8538-1c3d04425d04",
-      "Reverse Voltage & Brake Chopper"
-    ],
-    [
-      "5c0df477-a78d-44ca-8af5-922544171996",
-      "Indicator LEDs"
     ]
   ],
   "text_variables": {},
