@@ -769,7 +769,7 @@
           "show": false
         }
       ],
-      "filter_string": "U19",
+      "filter_string": "C",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",

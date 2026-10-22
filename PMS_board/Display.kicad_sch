@@ -2229,7 +2229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
 			(at 151.13 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2240,7 +2240,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/challenge-electronics/CI12E-07T230-C-6/21262930"
 			(at 151.13 102.87 0)
 			(hide yes)
 			(show_name no)
