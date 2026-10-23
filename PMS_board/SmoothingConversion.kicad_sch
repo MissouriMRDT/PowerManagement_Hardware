@@ -5203,7 +5203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OptoDevice:Everlight_ITR9608-F"
+		(property "Footprint" ""
 			(at 236.22 80.01 0)
 			(hide yes)
 			(show_name no)
