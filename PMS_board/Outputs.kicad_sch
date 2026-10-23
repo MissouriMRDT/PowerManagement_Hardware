@@ -18791,7 +18791,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 162.56 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -18802,7 +18802,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/DF2B29FU-H3F/5810207"
 			(at 162.56 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -21310,7 +21310,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 330.2 274.32 0)
 			(hide yes)
 			(show_name no)

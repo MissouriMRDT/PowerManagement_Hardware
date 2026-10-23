@@ -4634,7 +4634,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1245HC100-RTR_COB"
+		(property "Footprint" "1245HC100-RTR_COB:1245HC100-RTR_COB"
 			(at 67.31 68.58 0)
 			(hide yes)
 			(show_name no)

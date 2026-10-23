@@ -2999,7 +2999,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 59.944 155.956 90)
 			(hide yes)
 			(show_name no)
@@ -3559,7 +3559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 44.196 165.354 90)
 			(hide yes)
 			(show_name no)
@@ -3721,7 +3721,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 32.004 158.496 90)
 			(hide yes)
 			(show_name no)
@@ -4299,7 +4299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 72.136 164.084 90)
 			(hide yes)
 			(show_name no)
