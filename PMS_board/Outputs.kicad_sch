@@ -17959,7 +17959,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Passives:SOT-23_Diode"
 			(at 67.31 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -21315,7 +21315,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Passives:SOT-23_Diode"
 			(at 67.31 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -21429,7 +21429,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Passives:SOT-23_Diode"
 			(at 67.31 195.58 0)
 			(hide yes)
 			(show_name no)
