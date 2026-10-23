@@ -4492,12 +4492,6 @@
 		(uuid "038957f8-0104-42aa-8998-b0ac93f0f846")
 	)
 	(junction
-		(at 162.56 261.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08224f45-b28a-40dd-9a8e-16c5ebb420e6")
-	)
-	(junction
 		(at 137.16 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4616,6 +4610,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40041660-283b-421a-b347-5235b4205407")
+	)
+	(junction
+		(at 160.02 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "406e017c-385b-4d2a-98d5-bef619df4db4")
 	)
 	(junction
 		(at 67.31 190.5)
@@ -4810,6 +4810,12 @@
 		(uuid "b0b61a0c-2786-4068-9889-ded19cd07cc1")
 	)
 	(junction
+		(at 327.66 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b10b963b-2bbf-4a25-851b-27288b090112")
+	)
+	(junction
 		(at 521.97 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4970,12 +4976,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee5c5e3f-9204-47cb-95c7-4abd582fef1c")
-	)
-	(junction
-		(at 330.2 259.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f074f06a-d59d-4cec-9fdb-62f6932594bb")
 	)
 	(junction
 		(at 532.13 140.97)
@@ -5525,7 +5525,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 280.67) (xy 162.56 284.48)
+			(xy 160.02 280.67) (xy 160.02 284.48)
 		)
 		(stroke
 			(width 0)
@@ -5565,7 +5565,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 261.62) (xy 162.56 261.62)
+			(xy 154.94 261.62) (xy 160.02 261.62)
 		)
 		(stroke
 			(width 0)
@@ -5915,7 +5915,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 259.08) (xy 330.2 259.08)
+			(xy 322.58 259.08) (xy 327.66 259.08)
 		)
 		(stroke
 			(width 0)
@@ -6755,7 +6755,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 259.08) (xy 330.2 270.51)
+			(xy 327.66 259.08) (xy 327.66 270.51)
 		)
 		(stroke
 			(width 0)
@@ -7465,7 +7465,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 261.62) (xy 162.56 273.05)
+			(xy 160.02 261.62) (xy 160.02 273.05)
 		)
 		(stroke
 			(width 0)
@@ -7835,6 +7835,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 261.62) (xy 170.18 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d569bb5b-be2c-483b-b9af-05ad0b3782af")
+	)
+	(wire
+		(pts
 			(xy 137.16 190.5) (xy 154.94 190.5)
 		)
 		(stroke
@@ -7842,16 +7852,6 @@
 			(type default)
 		)
 		(uuid "d572242a-cb36-4c0d-91bf-8d3bd81051ec")
-	)
-	(wire
-		(pts
-			(xy 162.56 261.62) (xy 170.18 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5864242-81dd-4eed-b342-1a1567b6c664")
 	)
 	(wire
 		(pts
@@ -8195,17 +8195,17 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 259.08) (xy 337.82 259.08)
+			(xy 327.66 259.08) (xy 337.82 259.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed215cae-61c8-430a-b384-2f0478a4a40d")
+		(uuid "ecc8ad42-e3fe-4176-928c-2774642e6f41")
 	)
 	(wire
 		(pts
-			(xy 330.2 278.13) (xy 330.2 281.94)
+			(xy 327.66 278.13) (xy 327.66 281.94)
 		)
 		(stroke
 			(width 0)
@@ -16036,7 +16036,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 284.48 0)
+		(at 160.02 284.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16047,7 +16047,7 @@
 		(fields_autoplaced yes)
 		(uuid "8641e171-b90e-4eb0-86ae-36249762e2a5")
 		(property "Reference" "#PWR058"
-			(at 162.56 290.83 0)
+			(at 160.02 290.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16058,7 +16058,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 289.56 0)
+			(at 160.02 289.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16068,7 +16068,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 284.48 0)
+			(at 160.02 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16079,7 +16079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 284.48 0)
+			(at 160.02 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16090,7 +16090,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 284.48 0)
+			(at 160.02 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17384,7 +17384,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 330.2 281.94 0)
+		(at 327.66 281.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17395,7 +17395,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d521772-7fab-4949-beb9-5d9b110e219d")
 		(property "Reference" "#PWR071"
-			(at 330.2 288.29 0)
+			(at 327.66 288.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17406,7 +17406,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 330.2 287.02 0)
+			(at 327.66 287.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17416,7 +17416,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 330.2 281.94 0)
+			(at 327.66 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17427,7 +17427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 281.94 0)
+			(at 327.66 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17438,7 +17438,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 330.2 281.94 0)
+			(at 327.66 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18759,7 +18759,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 162.56 276.86 90)
+		(at 160.02 276.86 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18770,7 +18770,7 @@
 		(fields_autoplaced yes)
 		(uuid "b68eecfb-6601-4c64-9dd3-39ea058d5915")
 		(property "Reference" "D15"
-			(at 165.1 275.5899 90)
+			(at 162.56 275.5899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18781,7 +18781,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 165.1 278.1299 90)
+			(at 162.56 278.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18792,7 +18792,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 162.56 276.86 0)
+			(at 160.02 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18803,7 +18803,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/DF2B29FU-H3F/5810207"
-			(at 162.56 276.86 0)
+			(at 160.02 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18814,7 +18814,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 162.56 276.86 0)
+			(at 160.02 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18825,7 +18825,7 @@
 			)
 		)
 		(property "KLC_S3.1" ""
-			(at 162.56 276.86 90)
+			(at 160.02 276.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18836,7 +18836,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 162.56 276.86 90)
+			(at 160.02 276.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18847,7 +18847,7 @@
 			)
 		)
 		(property "KLC_S6.2" ""
-			(at 162.56 276.86 90)
+			(at 160.02 276.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21278,7 +21278,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 330.2 274.32 90)
+		(at 327.66 274.32 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21289,7 +21289,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8b23af3-19af-40f6-9efb-33518d253e3b")
 		(property "Reference" "D22"
-			(at 332.74 273.0499 90)
+			(at 330.2 273.0499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21300,7 +21300,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 332.74 275.5899 90)
+			(at 330.2 275.5899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21311,7 +21311,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 330.2 274.32 0)
+			(at 327.66 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21322,7 +21322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 274.32 0)
+			(at 327.66 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21333,7 +21333,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 330.2 274.32 0)
+			(at 327.66 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21344,7 +21344,7 @@
 			)
 		)
 		(property "KLC_S3.1" ""
-			(at 330.2 274.32 90)
+			(at 327.66 274.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21355,7 +21355,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 330.2 274.32 90)
+			(at 327.66 274.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21366,7 +21366,7 @@
 			)
 		)
 		(property "KLC_S6.2" ""
-			(at 330.2 274.32 90)
+			(at 327.66 274.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

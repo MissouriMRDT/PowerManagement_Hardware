@@ -769,7 +769,7 @@
           "show": false
         }
       ],
-      "filter_string": "R43",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
