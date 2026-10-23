@@ -10,4 +10,5 @@
 	(lib (name "TLV7011DCKR") (type "KiCad") (uri "${KIPRJMOD}/../lib/Symbols/TLV7011DCKR.kicad_sym") (options "") (descr ""))
 	(lib (name "MCP3204T-CIST") (type "KiCad") (uri "${KIPRJMOD}/../lib/Symbols/MCP3204T-CIST.kicad_sym") (options "") (descr ""))
 	(lib (name "INA186A3IDCK") (type "KiCad") (uri "${KIPRJMOD}/../lib/Symbols/INA186A3IDCK.kicad_sym") (options "") (descr ""))
+	(lib (name "1245HC100-RTR_COB") (type "KiCad") (uri "${KIPRJMOD}/../lib/Symbols/2026-10-23_20-28-17.kicad_sym") (options "") (descr ""))
 )

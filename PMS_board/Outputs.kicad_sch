@@ -4415,6 +4415,16 @@
 		)
 		(uuid "923d3d70-5317-4d54-917f-e93dedc315f2")
 	)
+	(text "are these configurations good for 24V?"
+		(exclude_from_sim no)
+		(at 282.448 285.75 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "938f02c4-7bb6-4cb1-8e06-dd149cbd1a09")
+	)
 	(text "VSCs"
 		(exclude_from_sim no)
 		(at 563.626 102.362 0)
