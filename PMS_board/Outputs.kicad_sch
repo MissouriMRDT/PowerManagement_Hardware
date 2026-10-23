@@ -4729,6 +4729,12 @@
 		(uuid "8f6d9fb7-f936-464e-877b-97d110614747")
 	)
 	(junction
+		(at 528.32 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93d149e9-307e-439c-a3af-61b4443a81a0")
+	)
+	(junction
 		(at 128.27 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4769,6 +4775,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0b61a0c-2786-4068-9889-ded19cd07cc1")
+	)
+	(junction
+		(at 521.97 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1c092a0-270b-4989-aaa8-f2f54427237b")
 	)
 	(junction
 		(at 336.55 170.18)
@@ -5259,6 +5271,16 @@
 			(type default)
 		)
 		(uuid "107e3df4-3c5e-4ad9-a0e8-272d7d57b86f")
+	)
+	(wire
+		(pts
+			(xy 513.08 57.15) (xy 521.97 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11196f3c-578f-40cf-9f67-7072a1e5ed52")
 	)
 	(wire
 		(pts
@@ -6702,6 +6724,16 @@
 	)
 	(wire
 		(pts
+			(xy 521.97 57.15) (xy 521.97 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a11fa2b-371e-4b41-83ee-b02290d17d77")
+	)
+	(wire
+		(pts
 			(xy 128.27 80.01) (xy 128.27 82.55)
 		)
 		(stroke
@@ -7132,6 +7164,16 @@
 	)
 	(wire
 		(pts
+			(xy 521.97 81.28) (xy 528.32 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aedc7956-1734-4309-93c0-146953f12eb7")
+	)
+	(wire
+		(pts
 			(xy 541.02 107.95) (xy 541.02 105.41)
 		)
 		(stroke
@@ -7402,6 +7444,16 @@
 	)
 	(wire
 		(pts
+			(xy 521.97 57.15) (xy 532.13 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6ce0eb4-0ddb-494d-91f1-2196033a05ab")
+	)
+	(wire
+		(pts
 			(xy 238.76 91.44) (xy 238.76 96.52)
 		)
 		(stroke
@@ -7452,7 +7504,7 @@
 	)
 	(wire
 		(pts
-			(xy 532.13 68.58) (xy 532.13 73.66)
+			(xy 532.13 57.15) (xy 532.13 73.66)
 		)
 		(stroke
 			(width 0)
@@ -7859,6 +7911,16 @@
 			(type default)
 		)
 		(uuid "e70e00ed-9a63-41ad-88c8-872d43dfac54")
+	)
+	(wire
+		(pts
+			(xy 521.97 69.85) (xy 521.97 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8277811-2be5-428e-9a9d-6e17bf317059")
 	)
 	(wire
 		(pts
@@ -8461,6 +8523,30 @@
 		)
 	)
 	(global_label "Motor_Power2"
+		(shape input)
+		(at 513.08 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97b493d2-7dce-4b0c-a9b6-e0b253b9dc2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 497.0321 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Motor_Power2"
 		(shape output)
 		(at 336.55 166.37 90)
 		(fields_autoplaced yes)
@@ -8649,30 +8735,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "Motor_Power2"
-		(shape input)
-		(at 532.13 68.58 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "efd93a16-26d0-4a0a-838e-0b1a4744cb31")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 532.13 52.5321 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -13339,6 +13401,88 @@
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e"
 					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 521.97 66.04 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "650bd70e-6f06-44e1-ba49-b28eeb0c38d2")
+		(property "Reference" "C37"
+			(at 518.16 64.1349 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000uF"
+			(at 518.16 66.6749 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 521.97 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 521.97 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 521.97 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a9637c8-b5b4-4fa9-9e85-b6bf6ba4a7ac")
+		)
+		(pin "2"
+			(uuid "a59f7a87-b2ee-4395-b4a9-7b92abcd0b0c")
+		)
+		(instances
+			(project "PMS_board"
+				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e"
+					(reference "C37")
 					(unit 1)
 				)
 			)
