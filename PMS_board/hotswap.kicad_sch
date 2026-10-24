@@ -1741,7 +1741,7 @@
 		(uuid "01eda012-6916-4d16-8b64-8b4d58675510")
 	)
 	(junction
-		(at 226.06 41.91)
+		(at 226.06 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "032cf8be-7d3f-4332-86c4-c7d079566d4d")
@@ -1813,7 +1813,7 @@
 		(uuid "733a461c-f2fa-4370-a84e-77ee5c0fb22c")
 	)
 	(junction
-		(at 196.85 46.99)
+		(at 196.85 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e8a2044-62a6-4909-89d4-38061fa18c3a")
@@ -1897,7 +1897,7 @@
 		(uuid "df1e5955-5996-43ad-bf40-afbcd32fd5f0")
 	)
 	(junction
-		(at 196.85 44.45)
+		(at 196.85 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e478f9e5-974e-469a-a57c-c35fafb9b428")
@@ -1915,7 +1915,7 @@
 		(uuid "ed5ecb42-bdb9-4aa0-a131-4632deea2226")
 	)
 	(junction
-		(at 226.06 44.45)
+		(at 226.06 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee89981e-854f-4fd5-b526-1346d8f7650e")
@@ -1962,7 +1962,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 46.99) (xy 196.85 50.8)
+			(xy 196.85 43.18) (xy 196.85 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2002,7 +2002,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 44.45) (xy 198.12 44.45)
+			(xy 196.85 40.64) (xy 198.12 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2132,7 +2132,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 41.91) (xy 226.06 41.91)
+			(xy 229.87 38.1) (xy 226.06 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2332,7 +2332,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 39.37) (xy 224.79 39.37)
+			(xy 229.87 35.56) (xy 224.79 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2372,7 +2372,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 44.45) (xy 224.79 44.45)
+			(xy 226.06 40.64) (xy 224.79 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2412,7 +2412,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 41.91) (xy 198.12 41.91)
+			(xy 196.85 38.1) (xy 198.12 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2652,7 +2652,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 39.37) (xy 194.31 39.37)
+			(xy 198.12 35.56) (xy 194.31 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2732,7 +2732,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 41.91) (xy 226.06 41.91)
+			(xy 224.79 38.1) (xy 226.06 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2802,7 +2802,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 41.91) (xy 226.06 44.45)
+			(xy 226.06 38.1) (xy 226.06 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2832,7 +2832,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 44.45) (xy 226.06 50.8)
+			(xy 226.06 40.64) (xy 226.06 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2852,7 +2852,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 50.8) (xy 196.85 50.8)
+			(xy 226.06 46.99) (xy 196.85 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3072,7 +3072,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 41.91) (xy 196.85 44.45)
+			(xy 196.85 38.1) (xy 196.85 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3082,7 +3082,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 44.45) (xy 196.85 46.99)
+			(xy 196.85 40.64) (xy 196.85 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3172,6 +3172,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 35.56) (xy 93.98 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f21dbff7-384d-44ad-a332-37bcfe546fa4")
+	)
+	(wire
+		(pts
 			(xy 63.5 38.1) (xy 62.23 38.1)
 		)
 		(stroke
@@ -3232,7 +3242,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 46.99) (xy 198.12 46.99)
+			(xy 196.85 43.18) (xy 198.12 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3301,7 +3311,7 @@
 		(uuid "088d34ee-687d-4401-904b-5fb4ba7fbe8b")
 	)
 	(label "Aalmout"
-		(at 194.31 39.37 180)
+		(at 194.31 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3381,7 +3391,7 @@
 		(uuid "447f17c2-6a35-4b4b-9300-d3b29d3d6beb")
 	)
 	(label "DGateA"
-		(at 229.87 39.37 0)
+		(at 229.87 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3551,7 +3561,7 @@
 		(uuid "f2b5ca4d-0794-4837-8783-9b419a3c7ed3")
 	)
 	(label "sourceA"
-		(at 229.87 41.91 0)
+		(at 229.87 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7416,7 +7426,7 @@
 	(symbol
 		(lib_name "IRFS7530TRL7PP_1")
 		(lib_id "IRFS7530TRL7PP:IRFS7530TRL7PP")
-		(at 224.79 39.37 0)
+		(at 224.79 35.56 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7428,7 +7438,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5dc8af6-9239-46cb-a49c-3b33f7a1dfe1")
 		(property "Reference" "U8"
-			(at 211.836 32.512 0)
+			(at 211.836 28.702 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7438,7 +7448,7 @@
 			)
 		)
 		(property "Value" "IRFS7530TRL7PP"
-			(at 211.836 35.052 0)
+			(at 211.836 31.242 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7448,7 +7458,7 @@
 			)
 		)
 		(property "Footprint" "IRFS7530TRL7PP:PG-TO263-7_INF"
-			(at 224.79 39.37 0)
+			(at 224.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7460,7 +7470,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/irfs7530-7ppbf.pdf?fileId=5546d462533600a40153563a9d1e21d8"
-			(at 224.79 39.37 0)
+			(at 224.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7472,7 +7482,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 39.37 0)
+			(at 224.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7483,7 +7493,7 @@
 			)
 		)
 		(property "KLC_S3.1" ""
-			(at 224.79 39.37 0)
+			(at 224.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7494,7 +7504,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 224.79 39.37 0)
+			(at 224.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7505,7 +7515,7 @@
 			)
 		)
 		(property "KLC_S6.2" ""
-			(at 224.79 39.37 0)
+			(at 224.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8198,8 +8208,8 @@
 			"8cec0293-ed0d-439d-b841-03e21f9376dd" "9a6e793a-2b0a-442d-a95f-71fe130571b9"
 			"baa9e823-58b3-4c2b-9da1-beb6854b13b0" "be606c08-2f20-4d31-8318-6fe4b2b9094e"
 			"bf74275c-21db-4262-9881-8869a7dac631" "c6d59676-b181-4e97-bc8c-3d130e09d3e4"
-			"ed5ecb42-bdb9-4aa0-a131-4632deea2226" "f2b5ca4d-0794-4837-8783-9b419a3c7ed3"
-			"f2dde4b8-260e-46c6-bf9b-9882ae54f4ac"
+			"ed5ecb42-bdb9-4aa0-a131-4632deea2226" "f21dbff7-384d-44ad-a332-37bcfe546fa4"
+			"f2b5ca4d-0794-4837-8783-9b419a3c7ed3" "f2dde4b8-260e-46c6-bf9b-9882ae54f4ac"
 		)
 	)
 	(group ""
