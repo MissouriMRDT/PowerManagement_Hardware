@@ -3157,7 +3157,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package:SQL147"
 			(at 40.64 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3355,7 +3355,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Horizontal"
 			(at 20.32 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -3441,7 +3441,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package:SQL147"
 			(at 39.37 104.14 0)
 			(hide yes)
 			(show_name no)

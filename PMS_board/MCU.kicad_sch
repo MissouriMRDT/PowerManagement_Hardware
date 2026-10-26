@@ -4118,7 +4118,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:RJ45_Teensy"
 			(at 151.13 94.615 90)
 			(hide yes)
 			(show_name no)

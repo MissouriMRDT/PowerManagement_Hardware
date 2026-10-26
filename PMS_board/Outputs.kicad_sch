@@ -10470,7 +10470,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
 			(at 490.22 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -11322,7 +11322,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
 			(at 546.1 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -13368,7 +13368,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
 			(at 410.21 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -15851,7 +15851,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
 			(at 416.56 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -16612,7 +16612,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "500uF"
+		(property "Value" "470uF"
 			(at 471.17 165.7349 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17446,7 +17446,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "500uF"
+		(property "Value" "470uF"
 			(at 395.478 141.986 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18679,7 +18679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
 			(at 355.6 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -18955,7 +18955,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
 			(at 546.1 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -20990,7 +20990,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
 			(at 416.56 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -21383,7 +21383,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
 			(at 410.21 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -22287,7 +22287,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
 			(at 546.1 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -22957,7 +22957,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
 			(at 546.1 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -23072,7 +23072,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
 			(at 490.22 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -24272,7 +24272,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
 			(at 546.1 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -24658,7 +24658,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
 			(at 546.1 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -25082,7 +25082,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
 			(at 490.22 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -25595,7 +25595,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
 			(at 546.1 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -26154,7 +26154,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "500uF"
+		(property "Value" "470uF"
 			(at 389.89 100.9649 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26613,7 +26613,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
 			(at 546.1 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -26831,7 +26831,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "500uF"
+		(property "Value" "470uF"
 			(at 464.82 97.1549 0)
 			(show_name no)
 			(do_not_autoplace no)

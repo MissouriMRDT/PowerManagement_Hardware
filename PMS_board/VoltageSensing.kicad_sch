@@ -494,7 +494,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x07_Pin"
+		(symbol "Connector:Conn_01x08_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -514,8 +514,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x07_Pin"
-				(at 0 -10.16 0)
+			(property "Value" "Conn_01x08_Pin"
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -546,7 +546,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x07, script generated"
+			(property "Description" "Generic connector, single row, 01x08, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -589,7 +589,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x07_Pin_1_1"
+			(symbol "Conn_01x08_Pin_1_1"
 				(rectangle
 					(start 0.8636 7.747)
 					(end 0 7.493)
@@ -659,6 +659,17 @@
 				(rectangle
 					(start 0.8636 -7.493)
 					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -10.033)
+					(end 0 -10.287)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -742,6 +753,18 @@
 				(polyline
 					(pts
 						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -10.16) (xy 0.8636 -10.16)
 					)
 					(stroke
 						(width 0.1524)
@@ -870,6 +893,24 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1981,6 +2022,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebf2688c-a4a5-445e-a00a-e8747a512533")
+	)
+	(no_connect
+		(at 26.67 127)
+		(uuid "5a8b34c9-46c8-4cb6-96d7-8d2f085bb777")
+	)
+	(no_connect
+		(at 26.67 154.94)
+		(uuid "bd2a814d-6392-4fd1-a8bb-68659f9320e8")
 	)
 	(wire
 		(pts
@@ -9388,6 +9437,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x08_Pin")
+		(at 21.59 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8117f753-b6c9-4624-b911-042fcfdb170e")
+		(property "Reference" "J3"
+			(at 22.225 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT_SENSE2"
+			(at 19.304 147.066 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical"
+			(at 21.59 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 21.59 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "6491dce4-10ab-42a5-891a-8abcc734b422")
+		)
+		(pin "7"
+			(uuid "7171e3fe-16e1-444f-9013-990c241031c6")
+		)
+		(pin "3"
+			(uuid "f3c0721f-6ff5-4e37-8411-3f7bd0948a93")
+		)
+		(pin "2"
+			(uuid "86697fd0-b67b-4690-a4c9-7bf16b5a8d0d")
+		)
+		(pin "1"
+			(uuid "2bd3f780-2faa-4b15-a8de-fb32522b1b66")
+		)
+		(pin "4"
+			(uuid "66d2ccf8-7830-4839-8eb3-ebeb1e40eeb8")
+		)
+		(pin "8"
+			(uuid "ef7ce726-f377-4593-bb0d-6c827315376f")
+		)
+		(pin "6"
+			(uuid "a4be309d-f548-4aae-adc9-b157d132e414")
+		)
+		(instances
+			(project "PMS_board"
+				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/9c22a642-2f25-4e63-ae47-811bedacdc79"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:BZV55B3V3")
 		(at 127 127 270)
 		(unit 1)
@@ -12471,6 +12617,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x08_Pin")
+		(at 21.59 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d30bb54e-b46f-419c-80dd-dcc3fc9ebe62")
+		(property "Reference" "J2"
+			(at 22.225 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT_SENSE1"
+			(at 19.304 119.126 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical"
+			(at 21.59 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 21.59 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "a7a39859-4dbb-4306-b00a-3e10f0789c30")
+		)
+		(pin "7"
+			(uuid "4406c470-7416-48c4-aa0d-d0e7f267ae6c")
+		)
+		(pin "3"
+			(uuid "d2cafac4-b5f2-45e4-a248-9db3bbe18c51")
+		)
+		(pin "2"
+			(uuid "b28324f1-6112-40a7-be00-ea7970584833")
+		)
+		(pin "1"
+			(uuid "38207f29-0e99-4358-b3bc-b755547fdb18")
+		)
+		(pin "4"
+			(uuid "1e27163f-c6c4-464c-8cbf-5e5dacb95db5")
+		)
+		(pin "8"
+			(uuid "aad634d3-37bd-40c3-907f-4b3bbaec346e")
+		)
+		(pin "6"
+			(uuid "355b12dc-aad5-48d9-966f-b08b7cc582ad")
+		)
+		(instances
+			(project "PMS_board"
+				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/9c22a642-2f25-4e63-ae47-811bedacdc79"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 77.47 123.19 0)
 		(unit 1)
@@ -13401,133 +13644,6 @@
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/9c22a642-2f25-4e63-ae47-811bedacdc79"
 					(reference "U1")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x07_Pin")
-		(at 21.59 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e5b59ab5-88ad-4d5a-a893-f6bf13b12c94")
-		(property "Reference" "J3"
-			(at 20.574 136.144 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT_SENSE2"
-			(at 20.066 144.526 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.59 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 21.59 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.1" ""
-			(at 21.59 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 21.59 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S6.2" ""
-			(at 21.59 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a10e1556-a4b3-49fd-ac4b-a45f8ed06194")
-		)
-		(pin "4"
-			(uuid "7dae4710-ccb7-4195-a360-e38c637e3887")
-		)
-		(pin "3"
-			(uuid "6475aec9-4448-455a-ab33-b3d6009e617f")
-		)
-		(pin "1"
-			(uuid "08986352-83a4-4413-a4ec-e72f2467380d")
-		)
-		(pin "5"
-			(uuid "a40237f9-7702-4011-b3b3-64514249f72e")
-		)
-		(pin "6"
-			(uuid "89e43359-18ad-4514-bd9e-1256054ada84")
-		)
-		(pin "7"
-			(uuid "a03e6d6a-4958-49d4-b621-6624207b08e3")
-		)
-		(instances
-			(project "PMS_board"
-				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/9c22a642-2f25-4e63-ae47-811bedacdc79"
-					(reference "J3")
-					(unit 1)
 				)
 			)
 		)
@@ -14935,133 +15051,6 @@
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/9c22a642-2f25-4e63-ae47-811bedacdc79"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x07_Pin")
-		(at 21.59 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fedecf5f-b9eb-43bd-9031-5eb13a0960d1")
-		(property "Reference" "J2"
-			(at 21.336 108.204 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT_SENSE1"
-			(at 20.066 116.586 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.59 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 21.59 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.1" ""
-			(at 21.59 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 21.59 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S6.2" ""
-			(at 21.59 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "23cb65d2-ffb4-4f6d-9ac2-437c1a5c0fbb")
-		)
-		(pin "4"
-			(uuid "e6886f2d-a0c4-4c3e-b7ba-4bee8f42b105")
-		)
-		(pin "3"
-			(uuid "9bbac792-0929-4e48-b4b6-6d02f442dd1b")
-		)
-		(pin "1"
-			(uuid "28cff416-435f-4600-be41-15f1f6f71072")
-		)
-		(pin "5"
-			(uuid "59959227-c545-46fd-9ab6-bfecce889f99")
-		)
-		(pin "6"
-			(uuid "0c42fb59-9711-40e6-8dfe-c2e27ac67985")
-		)
-		(pin "7"
-			(uuid "a35b8f2a-9611-4dac-b0f7-f2c51abdd582")
-		)
-		(instances
-			(project "PMS_board"
-				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/9c22a642-2f25-4e63-ae47-811bedacdc79"
-					(reference "J2")
 					(unit 1)
 				)
 			)

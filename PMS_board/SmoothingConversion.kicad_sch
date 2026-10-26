@@ -5034,7 +5034,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRR1210A"
 			(at 223.52 127 0)
 			(hide yes)
 			(show_name no)
