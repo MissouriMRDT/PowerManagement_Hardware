@@ -14345,7 +14345,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PTVS26VZ1USK"
+		(property "Value" "BZX84C15LT1G"
 			(at 336.55 274.3199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14356,7 +14356,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm"
+		(property "Footprint" "BZX84C15LT1G:SOT95P240X111-3N"
 			(at 334.645 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -14367,7 +14367,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVS26VZ1USK.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/BZX84C15LT1G/918390"
 			(at 339.09 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -14378,7 +14378,7 @@
 				)
 			)
 		)
-		(property "Description" "26V, 1850W TVS unidirectional diode, DSN1608-2"
+		(property "Description" "Zener Diode 15 V 250 mW ±6% Surface Mount SOT-23-3"
 			(at 339.09 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -20004,7 +20004,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PTVS26VZ1USK"
+		(property "Value" "BZX84C15LT1G"
 			(at 146.05 274.3199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20015,7 +20015,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm"
+		(property "Footprint" "BZX84C15LT1G:SOT95P240X111-3N"
 			(at 144.145 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -20026,7 +20026,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVS26VZ1USK.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/BZX84C15LT1G/918390"
 			(at 148.59 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -20037,7 +20037,7 @@
 				)
 			)
 		)
-		(property "Description" "26V, 1850W TVS unidirectional diode, DSN1608-2"
+		(property "Description" "Zener Diode 15 V 250 mW ±6% Surface Mount SOT-23-3"
 			(at 148.59 273.05 0)
 			(hide yes)
 			(show_name no)

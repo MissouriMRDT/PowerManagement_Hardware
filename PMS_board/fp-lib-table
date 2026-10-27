@@ -17,4 +17,5 @@
 	(lib (name "TS3A27518RIPWRQ1") (type "KiCad") (uri "${KIPRJMOD}/../lib/Footprints/TS3A27518RIPWRQ1.pretty") (options "") (descr ""))
 	(lib (name "SRR1210_180M") (type "KiCad") (uri "${KIPRJMOD}/../lib/Footprints/SRR1210_180M.pretty") (options "") (descr ""))
 	(lib (name "Current_Sense") (type "KiCad") (uri "${KIPRJMOD}/../lib/Footprints/Current_Resistor.pretty") (options "") (descr ""))
+	(lib (name "BZX84C15LT1G") (type "KiCad") (uri "${KIPRJMOD}/../lib/Footprints/BZX84C15LT1G.pretty") (options "") (descr ""))
 )
