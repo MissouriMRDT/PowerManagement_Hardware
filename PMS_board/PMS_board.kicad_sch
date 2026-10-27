@@ -1614,6 +1614,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 30.48 58.42)
@@ -1670,6 +1785,12 @@
 		(uuid "b70c7bd6-86a0-4714-8424-9610f0e15e8e")
 	)
 	(junction
+		(at 129.54 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1f553c9-a631-45bc-bb0e-26583b511b2c")
+	)
+	(junction
 		(at 48.26 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1681,9 +1802,31 @@
 		(color 0 0 0 0)
 		(uuid "e445a570-2af1-4f46-99cf-534e6c2c169e")
 	)
+	(junction
+		(at 118.11 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f910b50f-cd41-4025-b98b-1fd57e211785")
+	)
+	(junction
+		(at 106.68 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb68efdb-6668-4dc9-9d42-f4934fece251")
+	)
 	(no_connect
 		(at 92.71 60.96)
 		(uuid "a2e79765-c043-4c13-8251-c122f537640e")
+	)
+	(wire
+		(pts
+			(xy 118.11 175.26) (xy 118.11 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05dad3e9-1250-4e51-9ed6-866a372ee56a")
 	)
 	(wire
 		(pts
@@ -1867,6 +2010,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 175.26) (xy 129.54 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "339e4212-0b0b-4a18-81a2-f97393c133a2")
+	)
+	(wire
+		(pts
 			(xy 29.21 106.68) (xy 31.75 106.68)
 		)
 		(stroke
@@ -1934,6 +2087,16 @@
 			(type default)
 		)
 		(uuid "4b303b87-750c-4567-b210-ccdd57f465ba")
+	)
+	(wire
+		(pts
+			(xy 106.68 176.53) (xy 106.68 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bdd89bb-e8dc-4b17-a53d-f2bc2ebc4eed")
 	)
 	(wire
 		(pts
@@ -2084,6 +2247,16 @@
 			(type default)
 		)
 		(uuid "85f24c99-0f2e-4ad6-9797-6549d61ebe8e")
+	)
+	(wire
+		(pts
+			(xy 129.54 175.26) (xy 129.54 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86f9d3f0-4cc8-4627-9d0b-4cc21a1d4105")
 	)
 	(wire
 		(pts
@@ -2337,6 +2510,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 157.48) (xy 118.11 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db28847d-6464-4f39-85b2-ea6b525fbc82")
+	)
+	(wire
+		(pts
 			(xy 43.18 168.91) (xy 43.18 171.45)
 		)
 		(stroke
@@ -2477,7 +2660,7 @@
 	)
 	(global_label "BATTERY_IN1"
 		(shape output)
-		(at 106.68 175.26 270)
+		(at 106.68 176.53 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2487,7 +2670,7 @@
 		)
 		(uuid "1f467e38-c859-4527-80c2-7e080ff974a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.68 190.159 90)
+			(at 106.68 191.429 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2501,7 +2684,7 @@
 	)
 	(global_label "BATTERY_IN2"
 		(shape output)
-		(at 129.54 175.26 270)
+		(at 129.54 177.8 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2511,7 +2694,7 @@
 		)
 		(uuid "3310bb96-41ca-4a4f-8b5e-2d2a050454ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 190.159 90)
+			(at 129.54 192.699 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2572,7 +2755,7 @@
 		)
 	)
 	(global_label "VBATT1"
-		(shape input)
+		(shape output)
 		(at 48.26 58.42 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2740,7 +2923,7 @@
 		)
 	)
 	(global_label "VBATT2"
-		(shape input)
+		(shape output)
 		(at 48.26 106.68 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3526,6 +3709,118 @@
 		)
 	)
 	(symbol
+		(lib_id "MRDT_Drill_Holes:BATT_PWR_VIA")
+		(at 118.11 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b7aa49d-0201-4bb5-99c8-12de071ba469")
+		(property "Reference" "V4"
+			(at 121.92 149.2249 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EMERGENCY_VIA_2"
+			(at 121.92 151.7649 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MRDT_Drill_Holes:BATT_PWR_VIA"
+			(at 118.11 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 118.11 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 118.11 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 118.11 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d898ddf-f238-4e96-b03d-2d3389af8b2b")
+		)
+		(instances
+			(project "PMS_board"
+				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52"
+					(reference "V4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 43.18 165.1 0)
 		(unit 1)
@@ -3885,7 +4180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_UltraFit_02_Vertical"
+		(property "Footprint" "MRDT_Drill_Holes:BATT_PWR_VIA"
 			(at 129.54 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -4815,6 +5110,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 118.11 176.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba409124-3931-4e2d-a0ad-3fbf94589ffd")
+		(property "Reference" "#FLG06"
+			(at 118.11 178.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 118.11 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 118.11 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61818811-cce0-4d78-818d-fca2c35d1eb4")
+		)
+		(instances
+			(project "PMS_board"
+				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MRDT_Drill_Holes:BATT_PWR_VIA")
 		(at 106.68 170.18 0)
 		(unit 1)
@@ -4848,7 +5221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_UltraFit_02_Vertical"
+		(property "Footprint" "MRDT_Drill_Holes:BATT_PWR_VIA"
 			(at 106.68 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -5125,7 +5498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_UltraFit_02_Vertical"
+		(property "Footprint" "MRDT_Drill_Holes:BATT_PWR_VIA"
 			(at 153.67 170.18 0)
 			(hide yes)
 			(show_name no)

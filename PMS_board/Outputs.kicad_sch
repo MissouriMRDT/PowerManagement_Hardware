@@ -2384,6 +2384,108 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MRDT_Drill_Holes:BATT_PWR_VIA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "V"
+				(at 3.81 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "BATT_PWR_VIA"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BATT_PWR_VIA_0_1"
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -2.54 0) (xy 2.54 0) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BATT_PWR_VIA_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MRDT_ICs:LT1910"
 			(pin_names
 				(offset 1.016)
@@ -4273,6 +4375,26 @@
 		)
 		(uuid "06fa18cc-2fcc-4ae2-bfd8-8632becb4b3e")
 	)
+	(text "LOAD SWITCHING"
+		(exclude_from_sim no)
+		(at 106.68 24.384 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+		)
+		(uuid "0ab37771-1f89-4114-9726-71d4f5e64296")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 107.696 14.986 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+		)
+		(uuid "14f42140-5754-4c5f-96eb-6323067d36c5")
+	)
 	(text "15A @ Pack voltage\nper motor"
 		(exclude_from_sim no)
 		(at 563.372 107.95 0)
@@ -4324,6 +4446,16 @@
 			)
 		)
 		(uuid "2d8708df-89ee-4d48-893d-0e6dcb60458d")
+	)
+	(text "LEDS"
+		(exclude_from_sim no)
+		(at 292.354 32.258 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+		)
+		(uuid "3003c1a4-f910-4d64-9133-74b871b61d11")
 	)
 	(text "Core/Drive\n"
 		(exclude_from_sim no)
@@ -4454,6 +4586,16 @@
 			)
 		)
 		(uuid "f07bb62e-2146-4467-b53b-cc37954bbaa2")
+	)
+	(text "OUTPUTS"
+		(exclude_from_sim no)
+		(at 487.934 35.052 0)
+		(effects
+			(font
+				(size 7 7)
+			)
+		)
+		(uuid "f0a0a38a-8ca1-414d-ae6e-bd66c5dfa271")
 	)
 	(junction
 		(at 321.31 180.34)
@@ -4994,6 +5136,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb2bbcac-5c89-4f06-b5cd-498cb9137d39")
+	)
+	(junction
+		(at 528.32 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb31ce1a-3c42-4b03-8c46-55b46d6b8090")
 	)
 	(junction
 		(at 57.15 201.93)
@@ -5688,6 +5836,16 @@
 			(type default)
 		)
 		(uuid "222df61c-dbb9-41c2-bec8-88d2a9f88e1f")
+	)
+	(wire
+		(pts
+			(xy 528.32 46.99) (xy 528.32 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "232d7457-fd2f-4e20-a55e-a702a8f06352")
 	)
 	(wire
 		(pts
@@ -8431,7 +8589,7 @@
 	)
 	(wire
 		(pts
-			(xy 521.97 57.15) (xy 532.13 57.15)
+			(xy 521.97 57.15) (xy 528.32 57.15)
 		)
 		(stroke
 			(width 0)
@@ -9381,6 +9539,16 @@
 	)
 	(wire
 		(pts
+			(xy 528.32 57.15) (xy 532.13 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d7ffd4-3336-49a3-9afb-cc18a4ef12c3")
+	)
+	(wire
+		(pts
 			(xy 67.31 154.94) (xy 67.31 156.21)
 		)
 		(stroke
@@ -9509,16 +9677,6 @@
 		)
 		(uuid "01cf546e-07b7-44b4-bcb0-849cd6ededf3")
 	)
-	(label "OUTPUTS"
-		(at 449.58 43.18 0)
-		(effects
-			(font
-				(size 7.62 7.62)
-			)
-			(justify left bottom)
-		)
-		(uuid "0282b502-1cc4-4014-a1c3-304b9cbdcdb6")
-	)
 	(label "sourceC"
 		(at 194.31 302.26 0)
 		(effects
@@ -9558,16 +9716,6 @@
 			(justify left bottom)
 		)
 		(uuid "3518757a-8a15-4356-91db-46432d6976bf")
-	)
-	(label "LEDS"
-		(at 275.59 43.18 0)
-		(effects
-			(font
-				(size 7.62 7.62)
-			)
-			(justify left bottom)
-		)
-		(uuid "37ae83b5-0a33-413d-9ef7-e30342081c0f")
 	)
 	(label "DGateC"
 		(at 194.31 299.72 0)
@@ -9688,16 +9836,6 @@
 			(justify left bottom)
 		)
 		(uuid "ac42eb7f-6bfa-49f3-bb58-0a4f22732a7a")
-	)
-	(label "LOAD SWITCHING"
-		(at 64.77 33.02 0)
-		(effects
-			(font
-				(size 7.62 7.62)
-			)
-			(justify left bottom)
-		)
-		(uuid "d08db394-2a43-4356-8e5c-478c9f79a59d")
 	)
 	(label "Dalmout"
 		(at 347.98 297.18 180)
@@ -21537,6 +21675,118 @@
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Drill_Holes:BATT_PWR_VIA")
+		(at 528.32 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad62cfb8-a001-4964-8890-8e43b554db26")
+		(property "Reference" "V5"
+			(at 532.13 38.7349 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EMERGENCY_VIA"
+			(at 532.13 41.2749 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MRDT_Drill_Holes:BATT_PWR_VIA"
+			(at 528.32 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 528.32 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 528.32 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 528.32 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 528.32 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 528.32 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63199735-f8b0-4645-8a6a-0cfe271f9bd7")
+		)
+		(instances
+			(project "PMS_board"
+				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e"
+					(reference "V5")
 					(unit 1)
 				)
 			)

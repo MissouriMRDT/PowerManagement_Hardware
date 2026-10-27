@@ -14,4 +14,6 @@
 	(lib (name "AP63205QWU7") (type "KiCad") (uri "${KIPRJMOD}/../lib/Footprints/AP63205QWU7.pretty") (options "") (descr ""))
 	(lib (name "1245HC100-RTR_COB") (type "KiCad") (uri "${KIPRJMOD}/../lib/Footprints/1245HC100-RTR_COB.pretty") (options "") (descr ""))
 	(lib (name "Diode_SMD_Wurth") (type "KiCad") (uri "${KIPRJMOD}/../lib/Footprints/Diode_SMD_Wurth.pretty") (options "") (descr ""))
+	(lib (name "SRR1210_180M") (type "KiCad") (uri "${KIPRJMOD}/../lib/Footprints/SRR1210_180M.pretty") (options "") (descr ""))
+	(lib (name "Current_Sense") (type "KiCad") (uri "${KIPRJMOD}/../lib/Footprints/Current_Resistor.pretty") (options "") (descr ""))
 )

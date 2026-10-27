@@ -2800,9 +2800,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Footprints:ShuntSMD_BVT-M-R001-1.0"
+		(property "Footprint" "Current_Sense:ShuntSMD_BVT-M-R001-1.0"
 			(at 79.502 102.87 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
