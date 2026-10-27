@@ -5,6 +5,187 @@
 	(uuid "282246b0-e0d8-4997-b3ee-58bf10355d52")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -1622,6 +1803,18 @@
 		(uuid "043bdc33-287e-4d11-89cb-33061abbb089")
 	)
 	(junction
+		(at 88.9 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18f01a9b-d595-4c45-9cac-10fdac7277ba")
+	)
+	(junction
+		(at 129.54 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "423406bf-587e-4944-af7a-0e3211e400d4")
+	)
+	(junction
 		(at 66.04 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1638,6 +1831,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50a14a50-5d10-450d-9c2e-85ac0b17f412")
+	)
+	(junction
+		(at 109.22 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "736ce5bf-195b-4751-bbdb-b17611c9bf3a")
 	)
 	(junction
 		(at 66.04 171.45)
@@ -1787,6 +1986,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 175.26) (xy 120.65 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1877885a-a59e-417b-9b4e-49fd041a3098")
+	)
+	(wire
+		(pts
 			(xy 66.04 154.94) (xy 66.04 161.29)
 		)
 		(stroke
@@ -1834,6 +2043,16 @@
 			(type default)
 		)
 		(uuid "2468a2ee-2f90-47e2-9e22-d19259e4f2f2")
+	)
+	(wire
+		(pts
+			(xy 120.65 167.64) (xy 109.22 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "271515ef-e771-465e-b68e-9e39a651a906")
 	)
 	(wire
 		(pts
@@ -1887,6 +2106,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 180.34) (xy 129.54 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42489f17-7c37-4d18-ad5e-95878d84c4ca")
+	)
+	(wire
+		(pts
 			(xy 35.56 157.48) (xy 38.1 157.48)
 		)
 		(stroke
@@ -1894,6 +2123,16 @@
 			(type default)
 		)
 		(uuid "46238cea-32b5-47c1-8138-6e60f511af26")
+	)
+	(wire
+		(pts
+			(xy 88.9 184.15) (xy 88.9 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4623f780-0118-4cde-bee3-f817e43b5770")
 	)
 	(wire
 		(pts
@@ -1984,6 +2223,16 @@
 			(type default)
 		)
 		(uuid "57ae667f-53e8-4c6c-89f9-16fbcdb57cc3")
+	)
+	(wire
+		(pts
+			(xy 96.52 167.64) (xy 109.22 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e79925-0d41-4b83-ab29-924a53a1c825")
 	)
 	(wire
 		(pts
@@ -2307,6 +2556,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 177.8) (xy 88.9 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d74f61-f546-4c37-9666-f6d712349655")
+	)
+	(wire
+		(pts
 			(xy 133.35 60.96) (xy 133.35 66.04)
 		)
 		(stroke
@@ -2337,6 +2596,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 177.8) (xy 96.52 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d00c7843-f032-4d95-97fa-3d9f545e089a")
+	)
+	(wire
+		(pts
 			(xy 43.18 168.91) (xy 43.18 171.45)
 		)
 		(stroke
@@ -2354,6 +2623,16 @@
 			(type default)
 		)
 		(uuid "dbb2bf06-fcc2-4575-95fc-c721547e88b8")
+	)
+	(wire
+		(pts
+			(xy 129.54 177.8) (xy 129.54 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc1e91d4-d873-4fc4-8d36-a36d00aad736")
 	)
 	(wire
 		(pts
@@ -2394,6 +2673,16 @@
 			(type default)
 		)
 		(uuid "e49ed505-74cb-4481-b56b-5c8b5fa02865")
+	)
+	(wire
+		(pts
+			(xy 96.52 175.26) (xy 96.52 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ea6c5c-eeec-4f5b-831e-554468448fff")
 	)
 	(wire
 		(pts
@@ -2467,6 +2756,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 177.8) (xy 129.54 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb020603-8920-44fb-8a65-7924c58806af")
+	)
+	(wire
+		(pts
 			(xy 63.5 154.94) (xy 66.04 154.94)
 		)
 		(stroke
@@ -2477,7 +2776,7 @@
 	)
 	(global_label "BATTERY_IN1"
 		(shape output)
-		(at 106.68 175.26 270)
+		(at 88.9 184.15 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2487,7 +2786,7 @@
 		)
 		(uuid "1f467e38-c859-4527-80c2-7e080ff974a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.68 190.159 90)
+			(at 88.9 199.049 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2501,7 +2800,7 @@
 	)
 	(global_label "BATTERY_IN2"
 		(shape output)
-		(at 129.54 175.26 270)
+		(at 129.54 180.34 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2511,7 +2810,7 @@
 		)
 		(uuid "3310bb96-41ca-4a4f-8b5e-2d2a050454ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 190.159 90)
+			(at 129.54 195.239 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3770,6 +4069,118 @@
 		)
 	)
 	(symbol
+		(lib_id "MRDT_Drill_Holes:BATT_PWR_VIA")
+		(at 109.22 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68e79a6e-f623-44c5-b5a7-21ea0a3aec7d")
+		(property "Reference" "V4"
+			(at 113.03 159.3849 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_Via"
+			(at 113.03 161.9249 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MRDT_Drill_Holes:BATT_PWR_VIA"
+			(at 109.22 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 109.22 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 109.22 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 109.22 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73b4a585-a13e-4728-9289-ef6f94bae7bf")
+		)
+		(instances
+			(project "PMS_board"
+				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52"
+					(reference "V4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener")
 		(at 38.1 165.1 90)
 		(mirror x)
@@ -3885,7 +4296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_UltraFit_02_Vertical"
+		(property "Footprint" "MRDT_Drill_Holes:BATT_PWR_VIA"
 			(at 129.54 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -3997,7 +4408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
 			(at 204.47 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -4109,7 +4520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
 			(at 231.14 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -4182,6 +4593,167 @@
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 115.57 177.8 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "882a1b6b-42aa-4856-934b-5e47b8fb72cc")
+		(property "Reference" "J22"
+			(at 116.205 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 116.205 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Mega-Fit_76829-0002_2x01_P5.70mm_Vertical"
+			(at 115.57 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 115.57 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f259502f-abc3-48e6-baa6-c7a24f9edd5a")
+		)
+		(pin "1"
+			(uuid "a95b4c25-fd74-4955-8c5b-3a1f07428573")
+		)
+		(instances
+			(project "PMS_board"
+				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 101.6 177.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "88d8eb7a-a674-42ad-adac-a847eaaaa9b1")
+		(property "Reference" "J21"
+			(at 97.028 182.372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 91.694 180.086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Mega-Fit_76829-0002_2x01_P5.70mm_Vertical"
+			(at 101.6 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 101.6 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "875692b3-a6a0-4d1e-ba82-3b6efbdad5af")
+		)
+		(pin "1"
+			(uuid "bdc3d9a1-0e9d-4dd3-aebe-31724f122f39")
+		)
+		(instances
+			(project "PMS_board"
+				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52"
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -4459,7 +5031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
 			(at 231.14 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4736,7 +5308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
 			(at 204.47 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4816,7 +5388,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Drill_Holes:BATT_PWR_VIA")
-		(at 106.68 170.18 0)
+		(at 88.9 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4827,7 +5399,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc73e342-bf59-4987-8ae1-a618725a9eff")
 		(property "Reference" "V1"
-			(at 110.49 167.0049 0)
+			(at 92.71 167.0049 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4838,7 +5410,7 @@
 			)
 		)
 		(property "Value" "BATT_PWR_VIA"
-			(at 110.49 169.5449 0)
+			(at 92.71 169.5449 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4848,8 +5420,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_UltraFit_02_Vertical"
-			(at 106.68 170.18 0)
+		(property "Footprint" "MRDT_Drill_Holes:BATT_PWR_VIA"
+			(at 88.9 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4860,7 +5432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 170.18 0)
+			(at 88.9 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4871,7 +5443,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 170.18 0)
+			(at 88.9 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4882,7 +5454,7 @@
 			)
 		)
 		(property "KLC_S3.1" ""
-			(at 106.68 170.18 0)
+			(at 88.9 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4893,7 +5465,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 106.68 170.18 0)
+			(at 88.9 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4904,7 +5476,7 @@
 			)
 		)
 		(property "KLC_S6.2" ""
-			(at 106.68 170.18 0)
+			(at 88.9 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5125,7 +5697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_UltraFit_02_Vertical"
+		(property "Footprint" "MRDT_Drill_Holes:BATT_PWR_VIA"
 			(at 153.67 170.18 0)
 			(hide yes)
 			(show_name no)

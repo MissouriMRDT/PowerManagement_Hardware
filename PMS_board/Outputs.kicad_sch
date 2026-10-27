@@ -2384,6 +2384,108 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MRDT_Drill_Holes:BATT_PWR_VIA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "V"
+				(at 3.81 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "BATT_PWR_VIA"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BATT_PWR_VIA_0_1"
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -2.54 0) (xy 2.54 0) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BATT_PWR_VIA_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MRDT_ICs:LT1910"
 			(pin_names
 				(offset 1.016)
@@ -5133,6 +5235,12 @@
 		(color 0 0 0 0)
 		(uuid "fed0d6cf-5e8d-471a-9f2c-130db7068dc7")
 	)
+	(junction
+		(at 528.32 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff8009f8-00eb-4142-8c35-f139fb649129")
+	)
 	(no_connect
 		(at 353.06 163.83)
 		(uuid "20267bca-9c91-4e8f-96c8-51acb6f17144")
@@ -6911,6 +7019,16 @@
 	)
 	(wire
 		(pts
+			(xy 528.32 53.34) (xy 528.32 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c9d5c79-54de-406b-b5bb-8cbf754aae2b")
+	)
+	(wire
+		(pts
 			(xy 181.61 256.54) (xy 181.61 259.08)
 		)
 		(stroke
@@ -7358,6 +7476,16 @@
 			(type default)
 		)
 		(uuid "876e9b92-747d-40f3-a08b-bc3506fde73f")
+	)
+	(wire
+		(pts
+			(xy 528.32 57.15) (xy 532.13 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "894b359f-1100-4d23-8a30-974b8dfb1f0d")
 	)
 	(wire
 		(pts
@@ -8431,7 +8559,7 @@
 	)
 	(wire
 		(pts
-			(xy 521.97 57.15) (xy 532.13 57.15)
+			(xy 521.97 57.15) (xy 528.32 57.15)
 		)
 		(stroke
 			(width 0)
@@ -13655,6 +13783,118 @@
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Drill_Holes:BATT_PWR_VIA")
+		(at 528.32 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3045ad82-2426-43bc-9f0b-a281a064cf52")
+		(property "Reference" "V5"
+			(at 532.13 45.0849 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_Via"
+			(at 532.13 47.6249 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MRDT_Drill_Holes:BATT_PWR_VIA"
+			(at 528.32 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 528.32 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 528.32 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 528.32 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 528.32 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 528.32 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08d6be02-aef7-4ff3-a472-cd3bc26d991d")
+		)
+		(instances
+			(project "PMS_board"
+				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e"
+					(reference "V5")
 					(unit 1)
 				)
 			)
