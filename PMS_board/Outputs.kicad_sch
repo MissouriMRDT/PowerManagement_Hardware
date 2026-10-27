@@ -16623,7 +16623,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 474.98 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -16634,7 +16634,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2452/ECA-xxM%20Series%2CTypeA.pdf"
 			(at 474.98 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -16645,7 +16645,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "ECA-1HM471"
 			(at 474.98 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -17145,7 +17145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 521.97 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -17156,7 +17156,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
 			(at 521.97 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -17167,7 +17167,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "50ZLH1000MEFCGC16X25"
 			(at 521.97 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -17457,7 +17457,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 393.7 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -17468,7 +17468,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2452/ECA-xxM%20Series%2CTypeA.pdf"
 			(at 393.7 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -17479,7 +17479,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "ECA-1HM471"
 			(at 393.7 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -26165,7 +26165,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 393.7 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -26176,7 +26176,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2452/ECA-xxM%20Series%2CTypeA.pdf"
 			(at 393.7 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -26187,7 +26187,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "ECA-1HM471"
 			(at 393.7 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -26842,7 +26842,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 468.63 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -26853,7 +26853,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2452/ECA-xxM%20Series%2CTypeA.pdf"
 			(at 468.63 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -26864,7 +26864,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "ECA-1HM471"
 			(at 468.63 96.52 0)
 			(hide yes)
 			(show_name no)
