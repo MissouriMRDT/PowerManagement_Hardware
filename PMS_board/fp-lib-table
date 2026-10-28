@@ -18,4 +18,5 @@
 	(lib (name "SRR1210_180M") (type "KiCad") (uri "${KIPRJMOD}/../lib/Footprints/SRR1210_180M.pretty") (options "") (descr ""))
 	(lib (name "Current_Sense") (type "KiCad") (uri "${KIPRJMOD}/../lib/Footprints/Current_Resistor.pretty") (options "") (descr ""))
 	(lib (name "BZX84C15LT1G") (type "KiCad") (uri "${KIPRJMOD}/../lib/Footprints/BZX84C15LT1G.pretty") (options "") (descr ""))
+	(lib (name "Vert_MegaFit") (type "KiCad") (uri "${KIPRJMOD}/../lib/Footprints/Mega-Fit.pretty") (options "") (descr ""))
 )
