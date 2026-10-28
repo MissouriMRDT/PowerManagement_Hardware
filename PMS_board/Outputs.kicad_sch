@@ -14387,7 +14387,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BZX84C15LT1G"
+		(property "Value" "MMSZ5264BT1G"
 			(at 336.55 274.3199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14398,7 +14398,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BZX84C15LT1G:SOT95P240X111-3N"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 334.645 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -14409,7 +14409,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/BZX84C15LT1G/918390"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mmsz5221bt1-d.pdf"
 			(at 339.09 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -14420,41 +14420,8 @@
 				)
 			)
 		)
-		(property "Description" "Zener Diode 15 V 250 mW ±6% Surface Mount SOT-23-3"
+		(property "Description" "Zener Diode 60 V 500 mW ±5% Surface Mount SOD-123"
 			(at 339.09 273.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.1" ""
-			(at 339.09 273.05 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 339.09 273.05 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S6.2" ""
-			(at 339.09 273.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20046,7 +20013,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BZX84C15LT1G"
+		(property "Value" "MMSZ5264BT1G"
 			(at 146.05 274.3199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20057,7 +20024,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BZX84C15LT1G:SOT95P240X111-3N"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 144.145 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -20068,7 +20035,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/BZX84C15LT1G/918390"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mmsz5221bt1-d.pdf"
 			(at 148.59 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -20079,41 +20046,8 @@
 				)
 			)
 		)
-		(property "Description" "Zener Diode 15 V 250 mW ±6% Surface Mount SOT-23-3"
+		(property "Description" "Zener Diode 60 V 500 mW ±5% Surface Mount SOD-123"
 			(at 148.59 273.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.1" ""
-			(at 148.59 273.05 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 148.59 273.05 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S6.2" ""
-			(at 148.59 273.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
