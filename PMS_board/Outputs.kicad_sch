@@ -4660,7 +4660,7 @@
 		(uuid "21523a19-bd68-4e5f-a6e6-7a134553be9b")
 	)
 	(junction
-		(at 485.14 93.98)
+		(at 485.14 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21cff2ea-1142-4b4f-80db-e768006100df")
@@ -4706,6 +4706,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34f3e9d3-a6bc-491b-8e4f-ee93b0f8e3a8")
+	)
+	(junction
+		(at 478.79 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36024402-fb7f-4f1a-abe4-5d4d4dccfd8e")
 	)
 	(junction
 		(at 67.31 119.38)
@@ -4918,6 +4924,12 @@
 		(uuid "96060b5f-d613-4020-a357-0b9f14990a63")
 	)
 	(junction
+		(at 477.52 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e72845a-b1c3-42a1-8f8c-59fa463653ef")
+	)
+	(junction
 		(at 168.91 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4982,6 +4994,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1c092a0-270b-4989-aaa8-f2f54427237b")
+	)
+	(junction
+		(at 482.6 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1c27541-559b-44ff-8730-636186fe82ab")
 	)
 	(junction
 		(at 336.55 170.18)
@@ -5126,12 +5144,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d406e74e-b452-4e6d-b4a3-f2816b5bdce8")
-	)
-	(junction
-		(at 478.79 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d771df9a-5164-497a-a30e-73f8639a89e4")
 	)
 	(junction
 		(at 482.6 175.26)
@@ -5509,16 +5521,6 @@
 	)
 	(wire
 		(pts
-			(xy 485.14 96.52) (xy 485.14 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f8e7b76-b13a-4603-abb7-0eae645f7efe")
-	)
-	(wire
-		(pts
 			(xy 347.98 170.18) (xy 336.55 170.18)
 		)
 		(stroke
@@ -5559,7 +5561,7 @@
 	)
 	(wire
 		(pts
-			(xy 478.79 90.17) (xy 478.79 93.98)
+			(xy 478.79 90.17) (xy 478.79 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5756,16 +5758,6 @@
 			(type default)
 		)
 		(uuid "1ea20541-4395-4408-bbde-25931d38ec53")
-	)
-	(wire
-		(pts
-			(xy 478.79 101.6) (xy 485.14 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f0f6bf8-3856-4a30-8693-328f59f5abe0")
 	)
 	(wire
 		(pts
@@ -6279,7 +6271,7 @@
 	)
 	(wire
 		(pts
-			(xy 468.63 101.6) (xy 478.79 101.6)
+			(xy 468.63 115.57) (xy 477.52 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6479,6 +6471,16 @@
 	)
 	(wire
 		(pts
+			(xy 482.6 109.22) (xy 482.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "506c42c9-c97c-460c-87f4-def392fc9270")
+	)
+	(wire
+		(pts
 			(xy 137.16 185.42) (xy 137.16 186.69)
 		)
 		(stroke
@@ -6626,6 +6628,16 @@
 			(type default)
 		)
 		(uuid "570c23f0-f5b7-4ce3-84d0-7fdf5c274e87")
+	)
+	(wire
+		(pts
+			(xy 478.79 106.68) (xy 485.14 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c20cc4-2c84-4d51-b7e9-ee065e184dd5")
 	)
 	(wire
 		(pts
@@ -7049,6 +7061,16 @@
 	)
 	(wire
 		(pts
+			(xy 478.79 96.52) (xy 485.14 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f0492cb-0018-4ae4-b467-7db5d502f9c7")
+	)
+	(wire
+		(pts
 			(xy 191.77 262.89) (xy 191.77 261.62)
 		)
 		(stroke
@@ -7126,16 +7148,6 @@
 			(type default)
 		)
 		(uuid "723744ce-ed0c-4457-a4be-1178b3c580d9")
-	)
-	(wire
-		(pts
-			(xy 485.14 99.06) (xy 485.14 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72f16f0e-9e46-4c9e-b40c-721f06c7593c")
 	)
 	(wire
 		(pts
@@ -7329,13 +7341,13 @@
 	)
 	(wire
 		(pts
-			(xy 478.79 93.98) (xy 485.14 93.98)
+			(xy 485.14 96.52) (xy 485.14 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7eb424b3-61f3-4629-9ea7-4b20b6e092d4")
+		(uuid "7ef366c1-575d-482c-8cf5-dfb1541ca47d")
 	)
 	(wire
 		(pts
@@ -7879,6 +7891,16 @@
 	)
 	(wire
 		(pts
+			(xy 477.52 115.57) (xy 482.6 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e69412-054b-40fb-a957-61b7f7966ed3")
+	)
+	(wire
+		(pts
 			(xy 194.31 302.26) (xy 190.5 302.26)
 		)
 		(stroke
@@ -7926,6 +7948,16 @@
 			(type default)
 		)
 		(uuid "99e6da1e-2e21-411f-9609-147f32a23f2b")
+	)
+	(wire
+		(pts
+			(xy 482.6 99.06) (xy 485.14 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5aa5fc-847a-4465-90d0-eb2846864bc2")
 	)
 	(wire
 		(pts
@@ -8779,6 +8811,16 @@
 	)
 	(wire
 		(pts
+			(xy 482.6 109.22) (xy 482.6 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf853173-f270-477d-82c9-bc714ab8f101")
+	)
+	(wire
+		(pts
 			(xy 474.98 154.94) (xy 474.98 161.29)
 		)
 		(stroke
@@ -8839,23 +8881,13 @@
 	)
 	(wire
 		(pts
-			(xy 468.63 100.33) (xy 468.63 101.6)
+			(xy 468.63 100.33) (xy 468.63 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d207e414-dc74-42aa-a19e-8f8ca695dd3a")
-	)
-	(wire
-		(pts
-			(xy 478.79 104.14) (xy 478.79 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d285de4f-422d-4638-9716-35d9a04138b2")
 	)
 	(wire
 		(pts
@@ -9316,6 +9348,16 @@
 			(type default)
 		)
 		(uuid "ebc51f4f-5249-42da-9c12-498772d4fc5b")
+	)
+	(wire
+		(pts
+			(xy 482.6 109.22) (xy 485.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca79ed8-3452-4f9e-a82d-a380d43cdf96")
 	)
 	(wire
 		(pts
@@ -10598,7 +10640,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
+		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
 			(at 490.22 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -11450,7 +11492,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
+		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
 			(at 546.1 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -13496,7 +13538,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
+		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
 			(at 410.21 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14942,7 +14984,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 478.79 104.14 0)
+		(at 477.52 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14953,7 +14995,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f07ff07-d493-41a6-8e02-2f001f9c5710")
 		(property "Reference" "#PWR082"
-			(at 478.79 110.49 0)
+			(at 477.52 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14964,7 +15006,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 478.79 109.22 0)
+			(at 477.52 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14974,7 +15016,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 478.79 104.14 0)
+			(at 477.52 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14985,7 +15027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 478.79 104.14 0)
+			(at 477.52 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14996,7 +15038,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 478.79 104.14 0)
+			(at 477.52 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16091,7 +16133,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
+		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
 			(at 416.56 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -18919,7 +18961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
+		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
 			(at 355.6 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -19195,7 +19237,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
+		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
 			(at 546.1 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -21230,7 +21272,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 416.56 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -21623,7 +21665,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
+		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
 			(at 410.21 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -22527,7 +22569,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
+		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
 			(at 546.1 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -23197,7 +23239,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
+		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
 			(at 546.1 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -23312,7 +23354,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
+		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
 			(at 490.22 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -23698,6 +23740,121 @@
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e"
 					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 490.22 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c96ff37c-9427-47cf-9505-e7121dd12728")
+		(property "Reference" "J23"
+			(at 491.49 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_PIs"
+			(at 491.49 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
+			(at 490.22 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 490.22 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 490.22 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 490.22 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 490.22 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 490.22 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc04ae88-640b-4e4e-8ecf-714835348a2f")
+		)
+		(pin "2"
+			(uuid "940e0164-9623-4630-b30b-7ce227e59f72")
+		)
+		(instances
+			(project "PMS_board"
+				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e"
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -24512,7 +24669,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
+		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
 			(at 546.1 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -24898,7 +25055,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
+		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
 			(at 546.1 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -25322,7 +25479,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
+		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
 			(at 490.22 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -25835,7 +25992,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
+		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
 			(at 546.1 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -26853,7 +27010,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
+		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
 			(at 546.1 97.79 0)
 			(hide yes)
 			(show_name no)
