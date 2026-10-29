@@ -494,251 +494,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Shunt_US"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at -5.08 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Shunt_US"
-				(at -3.048 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Shunt resistor with Kelvin connections, US symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res shunt resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*Shunt*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_Shunt_US_1_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -1627,6 +1382,18 @@
 		(color 0 0 0 0)
 		(uuid "62b4403a-33af-45fe-8b65-a91514336a6b")
 	)
+	(junction
+		(at 81.28 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e06a5fd-4129-468c-88db-95534ccdc66b")
+	)
+	(junction
+		(at 81.28 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3f3b4df-03fd-4c9d-a792-3642eac96c25")
+	)
 	(no_connect
 		(at 163.83 100.33)
 		(uuid "354fcdb8-43fc-4410-b331-c3d7e74f4c51")
@@ -1634,6 +1401,16 @@
 	(no_connect
 		(at 163.83 102.87)
 		(uuid "3ddf81f9-9461-465a-8284-996c15563194")
+	)
+	(wire
+		(pts
+			(xy 83.82 97.79) (xy 81.28 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a9e42c-3a32-49d5-a6cf-6a2224146c33")
 	)
 	(wire
 		(pts
@@ -1647,7 +1424,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 107.95) (xy 81.28 113.03)
+			(xy 81.28 106.68) (xy 81.28 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1687,6 +1464,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 105.41) (xy 83.82 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "232f8483-f889-4d28-9f24-b465cbd6105f")
+	)
+	(wire
+		(pts
 			(xy 219.71 102.87) (xy 217.17 102.87)
 		)
 		(stroke
@@ -1717,6 +1504,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 107.95) (xy 83.82 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62419b2b-2eae-4f9f-9528-fcf9920e2c40")
+	)
+	(wire
+		(pts
 			(xy 97.79 105.41) (xy 97.79 115.57)
 		)
 		(stroke
@@ -1724,6 +1521,16 @@
 			(type default)
 		)
 		(uuid "69c7cb21-ebd0-4074-99c0-d096c5a840cf")
+	)
+	(wire
+		(pts
+			(xy 83.82 100.33) (xy 83.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75accd2f-b41e-4f77-bb9a-e7620bb3ce3f")
 	)
 	(wire
 		(pts
@@ -1867,6 +1674,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 97.79) (xy 81.28 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b38c37-d264-4bc1-af65-7976cd8f8ac3")
+	)
+	(wire
+		(pts
 			(xy 120.65 88.9) (xy 120.65 92.71)
 		)
 		(stroke
@@ -1884,6 +1701,16 @@
 			(type default)
 		)
 		(uuid "faccfce2-46f0-4609-a450-249b0436660d")
+	)
+	(wire
+		(pts
+			(xy 81.28 107.95) (xy 81.28 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb0de1f1-fb82-4627-b3ec-8c402c113d28")
 	)
 	(wire
 		(pts
@@ -2376,6 +2203,88 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 81.28 102.87 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "498ab7b9-e8b3-4120-b3a7-4f43537c351a")
+		(property "Reference" "R3"
+			(at 78.74 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1m"
+			(at 78.74 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Current_Sense:ShuntSMD_BVT-M-R001-1.0"
+			(at 80.264 103.124 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/isabellenhuette-usa/BVT-M-R001-1-0/16627455"
+			(at 81.28 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 81.28 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "01b5edc1-9424-4831-a4d3-bb283f632d04")
+		)
+		(pin "1"
+			(uuid "b2767984-d47c-48ef-8878-96ce637d4000")
+		)
+		(instances
+			(project "PMS_board"
+				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/9ae2dcd5-51ae-42d9-a1ef-fc7cd7fabc7d"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 110.49 88.9 90)
 		(unit 1)
 		(body_style 1)
@@ -2761,127 +2670,6 @@
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/9ae2dcd5-51ae-42d9-a1ef-fc7cd7fabc7d"
 					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Shunt_US")
-		(at 81.28 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba53ec8f-cd9f-4bfd-861d-29208c5a1393")
-		(property "Reference" "R83"
-			(at 78.74 101.5999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1m"
-			(at 78.74 104.1399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Current_Sense:ShuntSMD_BVT-M-R001-1.0"
-			(at 79.502 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/isabellenhuette-usa/BVT-M-R001-1-0/16627455"
-			(at 81.28 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Shunt resistor with Kelvin connections, US symbol"
-			(at 81.28 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.1" ""
-			(at 81.28 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 81.28 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S6.2" ""
-			(at 81.28 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "2669907b-1a00-4270-b556-29936e4e8605")
-		)
-		(pin "3"
-			(uuid "01e4e54c-f98e-46fd-a956-60e9861f1dfc")
-		)
-		(pin "2"
-			(uuid "bb6326d6-2113-4163-9fd2-32aa37e137a1")
-		)
-		(pin "1"
-			(uuid "c301035e-2a45-45ee-8dcf-d367126c81a1")
-		)
-		(instances
-			(project "PMS_board"
-				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/9ae2dcd5-51ae-42d9-a1ef-fc7cd7fabc7d"
-					(reference "R83")
 					(unit 1)
 				)
 			)
