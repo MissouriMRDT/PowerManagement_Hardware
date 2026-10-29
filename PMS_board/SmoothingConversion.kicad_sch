@@ -2594,16 +2594,6 @@
 		)
 		(uuid "d783cd1b-dc03-4d13-b79c-d4e1a00c323e")
 	)
-	(text "find different fuse\n"
-		(exclude_from_sim no)
-		(at 91.694 82.042 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ff7f93f0-b5b5-4259-84bf-90ca5763ee81")
-	)
 	(junction
 		(at 123.19 138.43)
 		(diameter 0)
