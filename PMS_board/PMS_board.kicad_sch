@@ -1491,7 +1491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 20.32 152.4 0)
 			(hide yes)
 			(show_name no)

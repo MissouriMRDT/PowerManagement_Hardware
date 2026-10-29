@@ -12396,7 +12396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-24-1EP_4x7mm_P0.5mm_EP2.64x6.44mm"
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
 			(at 280.67 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -14309,7 +14309,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V3 (Jetson)"
 			(at 394.97 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
