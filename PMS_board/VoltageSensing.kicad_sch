@@ -5286,7 +5286,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BZV55B3V3"
+		(property "Value" "MMSZ5227B"
 			(at 116.84 129.5399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5297,7 +5297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 109.855 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5308,7 +5308,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6808/MMSZ5227B%20SOD-123.PDF"
 			(at 114.3 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5801,7 +5801,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BZV55B3V3"
+		(property "Value" "MMSZ5227B"
 			(at 116.84 106.6799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5812,7 +5812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 109.855 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5823,7 +5823,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6808/MMSZ5227B%20SOD-123.PDF"
 			(at 114.3 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -7479,7 +7479,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BZV55B3V3"
+		(property "Value" "MMSZ5227B"
 			(at 146.05 269.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7490,7 +7490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 139.065 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -7501,7 +7501,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6808/MMSZ5227B%20SOD-123.PDF"
 			(at 143.51 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -7706,7 +7706,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BZV55B3V3"
+		(property "Value" "MMSZ5227B"
 			(at 116.84 198.1199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7717,7 +7717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 109.855 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -7728,7 +7728,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6808/MMSZ5227B%20SOD-123.PDF"
 			(at 114.3 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -8426,7 +8426,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BZV55B3V3"
+		(property "Value" "MMSZ5227B"
 			(at 116.84 175.2599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8437,7 +8437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 109.855 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8448,7 +8448,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6808/MMSZ5227B%20SOD-123.PDF"
 			(at 114.3 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8922,7 +8922,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BZV55B3V3"
+		(property "Value" "MMSZ5227B"
 			(at 116.84 83.8199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8933,7 +8933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 109.855 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8944,7 +8944,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6808/MMSZ5227B%20SOD-123.PDF"
 			(at 114.3 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9037,7 +9037,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BZV55B3V3"
+		(property "Value" "MMSZ5227B"
 			(at 116.84 152.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9048,7 +9048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 109.855 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -9059,7 +9059,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6808/MMSZ5227B%20SOD-123.PDF"
 			(at 114.3 151.13 0)
 			(hide yes)
 			(show_name no)

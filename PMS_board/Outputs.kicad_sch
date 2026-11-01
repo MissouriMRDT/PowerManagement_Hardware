@@ -10640,7 +10640,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Vertical"
 			(at 490.22 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -11492,7 +11492,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Vertical"
 			(at 546.1 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -13538,7 +13538,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Vertical"
 			(at 410.21 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16100,7 +16100,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Vertical"
 			(at 416.56 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -18928,7 +18928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Vertical"
 			(at 355.6 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -19204,7 +19204,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Vertical"
 			(at 546.1 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -21599,7 +21599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Vertical"
 			(at 410.21 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -21656,7 +21656,6 @@
 		)
 		(property "KLC_S6.2" ""
 			(at 410.21 113.03 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22245,7 +22244,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Zener"
+		(property "Value" "BZX84C3V6LT1G"
 			(at 67.056 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22503,7 +22502,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Vertical"
 			(at 546.1 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -23173,7 +23172,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Vertical"
 			(at 546.1 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -23288,7 +23287,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Vertical"
 			(at 490.22 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -23713,7 +23712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Vertical"
 			(at 490.22 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -24603,7 +24602,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Vertical"
 			(at 546.1 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -24660,7 +24659,6 @@
 		)
 		(property "KLC_S6.2" ""
 			(at 546.1 165.1 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24989,7 +24987,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Vertical"
 			(at 546.1 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -25413,7 +25411,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Vertical"
 			(at 490.22 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -25926,7 +25924,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Vertical"
 			(at 546.1 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -26029,7 +26027,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Zener"
+		(property "Value" "BZX84C3V6LT1G"
 			(at 67.056 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26143,7 +26141,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Zener"
+		(property "Value" "BZX84C3V6LT1G"
 			(at 67.056 193.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26944,7 +26942,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vert_MegaFit:CONN_SD-768290002_02_MOL"
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Vertical"
 			(at 546.1 97.79 0)
 			(hide yes)
 			(show_name no)
