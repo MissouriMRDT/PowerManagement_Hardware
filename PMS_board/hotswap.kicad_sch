@@ -8397,18 +8397,4 @@
 			)
 		)
 	)
-	(group ""
-		(uuid "d7928a70-e561-4f5f-a655-13dd6881bac1")
-		(members "10acaf4e-687b-4fb4-81d1-38bfd6fb7b68" "137383ee-edf0-48cc-8f67-81321a165f4b"
-			"317df53b-ac65-4797-a846-a8e04db4539c" "4280461c-3062-457a-b302-1406f1d8cb42"
-			"52a2b058-cbc4-4f5c-972a-e16bbb2d1fe6" "62ffc14f-2e58-4d4b-aa40-f94ee317e464"
-			"8d6ec4a5-a656-4eff-88e9-2fbca569fd4c" "907455d3-8e66-4520-bc9f-66d1b6107935"
-			"91b74e54-99ec-415c-bbfc-9a60f184c9d2" "9c8f7324-cbde-4e58-9c4e-90fb0c621713"
-			"a54c385c-0faf-462d-a94b-cb7cffffed84" "a9764197-fffe-41ef-aadd-a230de4b8818"
-			"adf254b5-fd3f-40de-990f-fc302bc431d9" "bbc378ca-2a01-40c2-b763-a977ce3f3500"
-			"c9c282c4-8c7e-4936-8f88-5deb279d9be6" "d1dbd945-0c25-4f71-be23-2571efbdf02e"
-			"deb958e6-dd51-46d3-9387-363bae0c2306" "e63397de-c63f-4913-8ef8-7f26ae3d2fb2"
-			"fde901bf-e8e5-49e0-a5b4-fef3405f1f8d"
-		)
-	)
 )
