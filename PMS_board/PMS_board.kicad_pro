@@ -64,7 +64,7 @@
           "min_island_area": 9.99999999996,
           "min_thickness": 0.25,
           "pad_connection": 2,
-          "remove_islands": 1,
+          "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -76,7 +76,108 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|138949700|60592300|02d1c42d-2d0f-4d3c-ba34-98d906bf276f|4b4eb9a5-b724-4596-8f4c-d9940c2320ce",
+          ""
+        ],
+        [
+          "clearance|140199700|61242300|02d1c42d-2d0f-4d3c-ba34-98d906bf276f|c063510b-e463-41eb-9dca-2b1fc4d1f561",
+          ""
+        ],
+        [
+          "clearance|141449700|60592300|02d1c42d-2d0f-4d3c-ba34-98d906bf276f|cd0854a4-6b4a-4b9a-b2a8-763cd279761e",
+          ""
+        ],
+        [
+          "clearance|70881700|120035300|11de52f6-8492-4903-8819-3b529d8da613|2ff5bf15-d9d2-46ff-8e21-36264254d8c6",
+          ""
+        ],
+        [
+          "clearance|72131700|120685300|c435f0d9-aba3-4b3d-b8ae-8f714cfc7dda|11de52f6-8492-4903-8819-3b529d8da613",
+          ""
+        ],
+        [
+          "clearance|73381700|120035300|6706097d-0f7d-4359-b5dd-d26ea607db8c|11de52f6-8492-4903-8819-3b529d8da613",
+          ""
+        ],
+        [
+          "clearance|86401500|131592300|07d514f7-c6ce-4280-86a0-975b8cec4e92|ed9b7606-5da8-44ec-88ec-7357b5a0a12d",
+          ""
+        ],
+        [
+          "clearance|87051500|130342300|afffd635-e84b-4717-b439-6c792c786d54|ed9b7606-5da8-44ec-88ec-7357b5a0a12d",
+          ""
+        ],
+        [
+          "clearance|87051500|132842300|ed9b7606-5da8-44ec-88ec-7357b5a0a12d|b0d870d4-facb-481e-92de-df98fc54be22",
+          ""
+        ],
+        [
+          "clearance|94376700|72664300|fb0d06f8-86a5-4f74-84d3-de95a0a13d55|3e120297-5d87-4d29-833c-0b41b32b7dfb",
+          ""
+        ],
+        [
+          "clearance|95626700|73314300|fb0d06f8-86a5-4f74-84d3-de95a0a13d55|14532c3b-4497-4eb0-a28d-39f7adc9cea7",
+          ""
+        ],
+        [
+          "clearance|96876700|72664300|fb0d06f8-86a5-4f74-84d3-de95a0a13d55|9fbe6a8b-1539-4b40-8014-3c1f09df89ee",
+          ""
+        ],
+        [
+          "silk_over_copper|144737300|144418000|e5b85995-97e2-41ec-a482-371e47b1fe92|ef3888b5-b4df-41f0-ac61-29a61a83e73a",
+          ""
+        ],
+        [
+          "silk_over_copper|160987300|144418000|c71b1bc5-72d9-4512-9898-4c53c90abbdb|620186de-1508-4d1a-9be0-0af2831d5741",
+          ""
+        ],
+        [
+          "silk_over_copper|173645301|99541300|c90724d6-a9da-4cbf-be22-946acc2dc0ce|31763389-e774-4a3f-a703-1e9e0487f7f0",
+          ""
+        ],
+        [
+          "silk_over_copper|174295300|99541300|c90724d6-a9da-4cbf-be22-946acc2dc0ce|f1f2b64a-3159-4efa-8b11-d13ad6a4c598",
+          ""
+        ],
+        [
+          "silk_over_copper|174945301|99541300|c90724d6-a9da-4cbf-be22-946acc2dc0ce|2576af40-771a-43a8-8d64-8b00b6b4e829",
+          ""
+        ],
+        [
+          "silk_over_copper|175595300|99541300|c90724d6-a9da-4cbf-be22-946acc2dc0ce|75984cb9-7e53-40f1-b3e8-17e2a4464d59",
+          ""
+        ],
+        [
+          "silk_over_copper|176245299|99541300|c90724d6-a9da-4cbf-be22-946acc2dc0ce|8d6fe2b7-8c32-4483-95f7-f6c4685f5bfb",
+          ""
+        ],
+        [
+          "silk_over_copper|176895300|99541300|c90724d6-a9da-4cbf-be22-946acc2dc0ce|8daddab8-6c48-44db-a433-a15b55c3ca5e",
+          ""
+        ],
+        [
+          "silk_over_copper|177545301|99541300|c90724d6-a9da-4cbf-be22-946acc2dc0ce|f936a75b-8370-4b6b-ac58-1840b8104c8d",
+          ""
+        ],
+        [
+          "silk_over_copper|84180700|110207300|600c39b6-5384-4bf6-89cf-8dda89ae5a4e|0635ab30-6402-4060-a8e2-9d40bc593ce0",
+          ""
+        ],
+        [
+          "silk_over_copper|84180700|113607300|f3e55c37-1d54-4225-88db-ac8f71d50fc6|986794ec-389f-47ff-93f0-d8f2241a0090",
+          ""
+        ],
+        [
+          "silk_overlap|172737800|99541300|44bd0d75-f78d-4c4b-b93b-38e4561778f1|c90724d6-a9da-4cbf-be22-946acc2dc0ce",
+          ""
+        ],
+        [
+          "silk_overlap|178097200|99541300|b248a2dc-bada-49c6-87bb-2a7889442b5d|c90724d6-a9da-4cbf-be22-946acc2dc0ce",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -245,6 +346,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 1.27,
+          "drill": 0.635
         }
       ],
       "zones_allow_external_fillets": false
