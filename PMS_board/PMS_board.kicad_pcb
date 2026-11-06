@@ -77087,6 +77087,16 @@
 		(uuid "9572e996-1099-4e8b-ab72-a21cfe6eaae7")
 	)
 	(gr_line
+		(start 109.728 93.726)
+		(end 134.366 93.726)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ba76a865-e30a-469c-b1a0-f3ea072635fe")
+	)
+	(gr_line
 		(start 139.7 89.408)
 		(end 159.512 89.408)
 		(stroke
@@ -77119,6 +77129,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Benjamin Mogg"
+		(at 110.49 96.012 0)
+		(layer "F.SilkS")
+		(uuid "6590ae03-82b4-4db4-ae82-60482bc7016c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2032)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "David Lofton\nDavid Gurtner"
 		(at 140.462 93.472 0)
 		(layer "F.SilkS")
@@ -77139,6 +77161,20 @@
 			(font
 				(size 1.524 1.524)
 				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Programmed by"
+		(at 109.982 92.71 0)
+		(layer "F.SilkS")
+		(uuid "0274544a-056c-418f-98d3-38793483fe70")
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.381)
 				(bold yes)
 				(italic yes)
 			)
