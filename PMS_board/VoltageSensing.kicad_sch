@@ -6018,7 +6018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cc22793-e62a-4dd2-8636-88fbe0de343b")
-		(property "Reference" "TP11"
+		(property "Reference" "Cell2"
 			(at 119.38 163.0679 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6112,7 +6112,7 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/9c22a642-2f25-4e63-ae47-811bedacdc79"
-					(reference "TP11")
+					(reference "Cell2")
 					(unit 1)
 				)
 			)
@@ -7583,7 +7583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60d5fae8-d3ef-4156-9f21-f0edafbd8880")
-		(property "Reference" "TP12"
+		(property "Reference" "Cell1"
 			(at 119.38 185.9279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7677,7 +7677,7 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/9c22a642-2f25-4e63-ae47-811bedacdc79"
-					(reference "TP12")
+					(reference "Cell1")
 					(unit 1)
 				)
 			)
@@ -8609,7 +8609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a260bf5-32d9-40f3-a8d9-f65861998af2")
-		(property "Reference" "TP7"
+		(property "Reference" "Cell6"
 			(at 119.38 71.6279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8703,7 +8703,7 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/9c22a642-2f25-4e63-ae47-811bedacdc79"
-					(reference "TP7")
+					(reference "Cell6")
 					(unit 1)
 				)
 			)
@@ -9343,7 +9343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "833677ee-7375-4685-b4fd-e10699670795")
-		(property "Reference" "TP9"
+		(property "Reference" "Cell4"
 			(at 119.38 117.3479 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9437,7 +9437,7 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/9c22a642-2f25-4e63-ae47-811bedacdc79"
-					(reference "TP9")
+					(reference "Cell4")
 					(unit 1)
 				)
 			)
@@ -9455,7 +9455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84c85691-2c18-4de9-b618-daf6a33693dc")
-		(property "Reference" "TP13"
+		(property "Reference" "CellT1"
 			(at 148.59 257.0479 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9549,7 +9549,7 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/9c22a642-2f25-4e63-ae47-811bedacdc79"
-					(reference "TP13")
+					(reference "CellT1")
 					(unit 1)
 				)
 			)
@@ -9766,7 +9766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8963381c-4759-4410-96c6-33592a3379e8")
-		(property "Reference" "TP10"
+		(property "Reference" "Cell3"
 			(at 119.38 140.2079 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9860,7 +9860,7 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/9c22a642-2f25-4e63-ae47-811bedacdc79"
-					(reference "TP10")
+					(reference "Cell3")
 					(unit 1)
 				)
 			)
@@ -11117,7 +11117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd133321-3232-4512-ac74-bee593dd1f1d")
-		(property "Reference" "TP8"
+		(property "Reference" "Cell5"
 			(at 119.38 94.4879 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11211,7 +11211,7 @@
 		(instances
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/9c22a642-2f25-4e63-ae47-811bedacdc79"
-					(reference "TP8")
+					(reference "Cell5")
 					(unit 1)
 				)
 			)

@@ -64,7 +64,7 @@
           "min_island_area": 9.99999999996,
           "min_thickness": 0.25,
           "pad_connection": 2,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -78,23 +78,19 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|138949700|60592300|02d1c42d-2d0f-4d3c-ba34-98d906bf276f|4b4eb9a5-b724-4596-8f4c-d9940c2320ce",
+          "silk_edge_clearance|137798000|160528000|09143cd7-03a9-4991-afd7-7f9d73115252|e5b85995-97e2-41ec-a482-371e47b1fe92",
           ""
         ],
         [
-          "clearance|140199700|61242300|02d1c42d-2d0f-4d3c-ba34-98d906bf276f|c063510b-e463-41eb-9dca-2b1fc4d1f561",
+          "silk_edge_clearance|154048000|160528000|09143cd7-03a9-4991-afd7-7f9d73115252|c71b1bc5-72d9-4512-9898-4c53c90abbdb",
           ""
         ],
         [
-          "clearance|141449700|60592300|02d1c42d-2d0f-4d3c-ba34-98d906bf276f|cd0854a4-6b4a-4b9a-b2a8-763cd279761e",
+          "silk_over_copper|137798000|148080000|e5b85995-97e2-41ec-a482-371e47b1fe92|ef3888b5-b4df-41f0-ac61-29a61a83e73a",
           ""
         ],
         [
-          "silk_over_copper|144737300|144418000|e5b85995-97e2-41ec-a482-371e47b1fe92|ef3888b5-b4df-41f0-ac61-29a61a83e73a",
-          ""
-        ],
-        [
-          "silk_over_copper|160987300|144418000|c71b1bc5-72d9-4512-9898-4c53c90abbdb|620186de-1508-4d1a-9be0-0af2831d5741",
+          "silk_over_copper|154048000|148080000|c71b1bc5-72d9-4512-9898-4c53c90abbdb|620186de-1508-4d1a-9be0-0af2831d5741",
           ""
         ],
         [
@@ -278,6 +274,7 @@
         0.0,
         0.254,
         1.27,
+        5.08,
         12.7
       ],
       "tuning_pattern_settings": {
@@ -314,6 +311,10 @@
         {
           "diameter": 1.27,
           "drill": 0.635
+        },
+        {
+          "diameter": 5.08,
+          "drill": 2.54
         }
       ],
       "zones_allow_external_fillets": false
@@ -907,7 +908,7 @@
         "uuid": "282246b0-e0d8-4997-b3ee-58bf10355d52"
       }
     ],
-    "used_designators": "IC1,#FLG1-2,R1-120,MOSFET1-6,#PWR1-148,L1-3,D1-42,SW1,C1-46,C60,U1-31,BT1,BT3-4,F1-14,Q1-7,Q9,Q12,K1,J1-34,TP1-36,Conn1,B1,H1-4,LCD1,V1-5",
+    "used_designators": "IC1,#FLG1-2,R1-120,MOSFET1-6,#PWR1-148,L1-3,D1-42,SW1,C1-46,C60,U1-31,BT1,BT3-4,F1-14,Q1-7,Q9,Q12,K1,J1-34,TP1-36,Conn1,B1,H1-4,LCD1,V1-5,CellT1",
     "variants": []
   },
   "sheets": [
