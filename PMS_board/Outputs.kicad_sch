@@ -4740,12 +4740,6 @@
 		(uuid "2f232986-50bf-4e2e-803c-9ccae56200fb")
 	)
 	(junction
-		(at 250.19 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34f3e9d3-a6bc-491b-8e4f-ee93b0f8e3a8")
-	)
-	(junction
 		(at 478.79 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4834,12 +4828,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ed693f1-f1fe-4390-b966-f2e873eec0d6")
-	)
-	(junction
-		(at 240.03 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6184c397-4029-4a96-a167-40bc22a21cda")
 	)
 	(junction
 		(at 58.42 59.69)
@@ -5809,16 +5797,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 151.13) (xy 248.92 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21b6d08f-2a78-445f-bdd0-9e794b3bd888")
-	)
-	(wire
-		(pts
 			(xy 154.94 154.94) (xy 154.94 147.32)
 		)
 		(stroke
@@ -6576,16 +6554,6 @@
 			(type default)
 		)
 		(uuid "5228f0a7-22b4-450d-8291-c59070aafd85")
-	)
-	(wire
-		(pts
-			(xy 240.03 151.13) (xy 241.3 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52598ba9-59cc-4995-9665-aadb9d7a0d5f")
 	)
 	(wire
 		(pts
@@ -8549,16 +8517,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 151.13) (xy 240.03 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c16aa6ad-d94e-49ff-9015-77034d4974d2")
-	)
-	(wire
-		(pts
 			(xy 137.16 182.88) (xy 154.94 182.88)
 		)
 		(stroke
@@ -8746,16 +8704,6 @@
 			(type default)
 		)
 		(uuid "cac47a91-9868-43e7-afe9-ec544801c464")
-	)
-	(wire
-		(pts
-			(xy 250.19 151.13) (xy 250.19 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cac9532a-984a-4f80-8d73-6ebd91868473")
 	)
 	(wire
 		(pts
@@ -18474,119 +18422,6 @@
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e"
 					(reference "R65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 245.11 151.13 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71d7643a-2523-4829-b784-357fe16634dc")
-		(property "Reference" "C16"
-			(at 245.11 143.51 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 245.11 146.05 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 241.3 152.0952 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 245.11 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.1" ""
-			(at 245.11 151.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 245.11 151.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S6.2" ""
-			(at 245.11 151.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "840cbc9f-a261-480a-9bcc-0ba0d62c0bc5")
-		)
-		(pin "2"
-			(uuid "e4196139-3eeb-46df-a12b-a6892f14a748")
-		)
-		(instances
-			(project "PMS_board"
-				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e"
-					(reference "C16")
 					(unit 1)
 				)
 			)
