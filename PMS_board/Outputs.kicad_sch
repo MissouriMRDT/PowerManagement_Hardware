@@ -14538,8 +14538,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1"
-			(at 357.378 160.782 90)
+		(property "Value" "1.5R"
+			(at 359.156 161.036 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14560,7 +14560,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/ohmite/HS100-1R5-J/5307081"
 			(at 356.87 163.83 0)
 			(hide yes)
 			(show_name no)
