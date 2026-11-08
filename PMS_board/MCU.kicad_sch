@@ -5,6 +5,187 @@
 	(uuid "f9fc64dd-689c-4c0b-a3d1-4f8db9422c14")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:RJ45_LED_Shielded"
 			(pin_names
 				(offset 1.016)
@@ -2172,20 +2353,12 @@
 		(uuid "062e7557-b982-450d-bc51-f727f8375e2a")
 	)
 	(no_connect
-		(at 86.36 66.04)
-		(uuid "33fef78a-bff0-4364-82ba-3aec0f8d1981")
-	)
-	(no_connect
 		(at 62.23 107.95)
 		(uuid "a7e816d3-8d50-4c40-811b-4496d49a4bc2")
 	)
 	(no_connect
 		(at 140.97 101.6)
 		(uuid "e00a8226-9e76-4a14-b349-fa7a6d7e951d")
-	)
-	(no_connect
-		(at 86.36 63.5)
-		(uuid "f92e47db-a975-45ea-b15b-635002279142")
 	)
 	(wire
 		(pts
@@ -2239,6 +2412,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 66.04) (xy 86.36 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1388b68c-099b-410f-85ea-f45f2f0b9427")
+	)
+	(wire
+		(pts
 			(xy 161.29 86.36) (xy 166.37 86.36)
 		)
 		(stroke
@@ -2269,7 +2452,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 49.53) (xy 90.17 54.61)
+			(xy 90.17 45.72) (xy 90.17 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2309,17 +2492,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 67.31) (xy 91.44 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30c67ffc-b1af-411d-a410-58d2d02da872")
-	)
-	(wire
-		(pts
-			(xy 99.06 67.31) (xy 99.06 54.61)
+			(xy 92.71 59.69) (xy 92.71 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2329,7 +2502,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 57.15) (xy 95.25 59.69)
+			(xy 95.25 57.15) (xy 95.25 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2409,7 +2582,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 59.69) (xy 86.36 59.69)
+			(xy 86.36 59.69) (xy 92.71 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2839,6 +3012,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 63.5) (xy 86.36 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b2a330-2eae-4f67-abfc-62ecd3f2d0cb")
+	)
+	(wire
+		(pts
 			(xy 58.42 54.61) (xy 62.23 54.61)
 		)
 		(stroke
@@ -2846,16 +3029,6 @@
 			(type default)
 		)
 		(uuid "ef8de954-7b4c-4506-8388-16f8d82c762f")
-	)
-	(wire
-		(pts
-			(xy 91.44 67.31) (xy 99.06 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4b5ce6b-483b-4d9e-802e-9c11774e2e77")
 	)
 	(global_label "TX+"
 		(shape output)
@@ -3663,7 +3836,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 99.06 54.61 0)
+		(at 92.71 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3674,7 +3847,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fc11635-ac3d-4035-ba79-3cadce2b1636")
 		(property "Reference" "#PWR099"
-			(at 99.06 58.42 0)
+			(at 92.71 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3685,7 +3858,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 99.06 49.53 0)
+			(at 92.71 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3695,7 +3868,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 54.61 0)
+			(at 92.71 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3706,7 +3879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 54.61 0)
+			(at 92.71 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3717,7 +3890,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 99.06 54.61 0)
+			(at 92.71 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4141,7 +4314,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 90.17 49.53 0)
+		(at 90.17 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4152,7 +4325,7 @@
 		(fields_autoplaced yes)
 		(uuid "765d1dd5-1022-47b2-b099-6fd38bf3e575")
 		(property "Reference" "#PWR01"
-			(at 90.17 53.34 0)
+			(at 90.17 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4163,7 +4336,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 90.17 44.45 0)
+			(at 90.17 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4173,7 +4346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 49.53 0)
+			(at 90.17 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4184,7 +4357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 49.53 0)
+			(at 90.17 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4195,7 +4368,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 90.17 49.53 0)
+			(at 90.17 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4443,7 +4616,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 59.69 0)
+		(at 95.25 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4454,7 +4627,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebf78ce3-e1f9-4ee8-81c2-12562b7ba9f5")
 		(property "Reference" "#PWR098"
-			(at 95.25 66.04 0)
+			(at 95.25 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4465,7 +4638,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 64.77 0)
+			(at 95.25 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4475,7 +4648,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 59.69 0)
+			(at 95.25 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4486,7 +4659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 59.69 0)
+			(at 95.25 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4497,7 +4670,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 59.69 0)
+			(at 95.25 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4514,6 +4687,88 @@
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/63d8c70c-510f-4be7-9ef0-0f3ce9f476db"
 					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 105.41 63.5 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ff63c9b0-2206-4842-a168-18c022083414")
+		(property "Reference" "J1"
+			(at 106.68 66.0401 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 106.68 63.5001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 105.41 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 105.41 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "17c6f7c9-c825-4e80-a99d-82056012121c")
+		)
+		(pin "1"
+			(uuid "524f942c-78b3-4189-a1d8-bdd2760b4854")
+		)
+		(instances
+			(project "PMS_board"
+				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/63d8c70c-510f-4be7-9ef0-0f3ce9f476db"
+					(reference "J1")
 					(unit 1)
 				)
 			)
