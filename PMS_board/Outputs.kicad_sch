@@ -4830,12 +4830,6 @@
 		(uuid "5ed693f1-f1fe-4390-b966-f2e873eec0d6")
 	)
 	(junction
-		(at 58.42 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6302363d-04e3-4385-8958-4ea3b70e2eed")
-	)
-	(junction
 		(at 71.12 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4876,12 +4870,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73b383e4-c297-401b-9e0e-4fafba22c8b8")
-	)
-	(junction
-		(at 52.07 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7529df90-c2ae-4bce-b837-bca646336396")
 	)
 	(junction
 		(at 402.59 113.03)
@@ -4998,12 +4986,6 @@
 		(uuid "a9735256-4cea-42a4-b126-1fee4de3d412")
 	)
 	(junction
-		(at 64.77 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae1289f6-5681-4df2-8b97-fb6e5a226d63")
-	)
-	(junction
 		(at 528.32 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5098,12 +5080,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6a96387-0b2a-44f8-bbb9-89e2cbccd033")
-	)
-	(junction
-		(at 64.77 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6eb4eb1-c84d-4da0-aa6f-bd435602136a")
 	)
 	(junction
 		(at 161.29 304.8)
@@ -5294,6 +5270,10 @@
 	(no_connect
 		(at 411.48 269.24)
 		(uuid "d719ba60-54e4-4104-af68-94e069173d3c")
+	)
+	(no_connect
+		(at 87.63 50.8)
+		(uuid "e258a95c-6af4-45a9-8c8b-3f93b28192a2")
 	)
 	(wire
 		(pts
@@ -5647,16 +5627,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 59.69) (xy 64.77 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14343333-6a10-47ff-8ae2-e57deb28466f")
-	)
-	(wire
-		(pts
 			(xy 81.28 185.42) (xy 48.26 185.42)
 		)
 		(stroke
@@ -5977,16 +5947,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 50.8) (xy 54.61 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fd6cf92-6d60-4bea-9903-a534b4a8a05e")
-	)
-	(wire
-		(pts
 			(xy 257.81 194.31) (xy 267.97 194.31)
 		)
 		(stroke
@@ -6114,16 +6074,6 @@
 			(type default)
 		)
 		(uuid "36167fa9-4e91-4635-bb31-3e025483335a")
-	)
-	(wire
-		(pts
-			(xy 58.42 59.69) (xy 64.77 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36399652-bc73-40ea-8e1a-a003aa7fa7c6")
 	)
 	(wire
 		(pts
@@ -7467,16 +7417,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 50.8) (xy 87.63 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8672edcd-8c65-455d-9f7d-e4a1a968250d")
-	)
-	(wire
-		(pts
 			(xy 454.66 274.32) (xy 447.04 274.32)
 		)
 		(stroke
@@ -7677,16 +7617,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 50.8) (xy 52.07 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91282dca-10cd-4bfd-b0ff-c238b40f9ba4")
-	)
-	(wire
-		(pts
 			(xy 482.6 160.02) (xy 485.14 160.02)
 		)
 		(stroke
@@ -7824,16 +7754,6 @@
 			(type default)
 		)
 		(uuid "95385127-cc11-4601-95bf-911e30da07ee")
-	)
-	(wire
-		(pts
-			(xy 64.77 50.8) (xy 64.77 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "953c5217-fb9a-44f5-aa1f-da06e392cf94")
 	)
 	(wire
 		(pts
@@ -8087,7 +8007,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 55.88) (xy 69.85 55.88)
+			(xy 87.63 55.88) (xy 77.47 55.88)
 		)
 		(stroke
 			(width 0)
@@ -8397,16 +8317,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 59.69) (xy 58.42 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9041ea3-037e-4a81-851e-b9dbb3cc1335")
-	)
-	(wire
-		(pts
 			(xy 48.26 130.81) (xy 57.15 130.81)
 		)
 		(stroke
@@ -8437,7 +8347,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 59.69) (xy 58.42 60.96)
+			(xy 77.47 55.88) (xy 77.47 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8504,16 +8414,6 @@
 			(type default)
 		)
 		(uuid "bf7716db-3564-4cf6-87c2-6602dbfc9bb8")
-	)
-	(wire
-		(pts
-			(xy 69.85 55.88) (xy 69.85 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c131222d-fab6-4e55-ac1c-4171132eed94")
 	)
 	(wire
 		(pts
@@ -10481,17 +10381,6 @@
 			(justify right)
 		)
 		(uuid "3309c56f-37bc-4aa3-875f-0dccff4d92f4")
-	)
-	(hierarchical_label "Curr_Motors"
-		(shape output)
-		(at 50.8 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3bbf5be1-27a0-430f-8b5a-8c73b7f3c507")
 	)
 	(hierarchical_label "In_Aux"
 		(shape input)
@@ -16917,7 +16806,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/vn7007ah.pdf"
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/00/8d/06/31/1c/66/43/66/DM00204885.pdf/files/DM00204885.pdf/jcr:content/translations/en.DM00204885.pdf"
 			(at 128.27 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -18066,121 +17955,6 @@
 			(project "PMS_board"
 				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e"
 					(reference "R51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 64.77 55.88 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "701fd686-0fb6-4fe5-9635-429055efe07d")
-		(property "Reference" "R52"
-			(at 67.31 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330"
-			(at 67.31 58.928 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 63.754 56.134 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 64.77 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.1" ""
-			(at 64.77 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 64.77 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S6.2" ""
-			(at 64.77 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a9a3effd-0193-49bd-b2ea-f58bd606b5e4")
-		)
-		(pin "1"
-			(uuid "13b1a3c3-7c80-47ea-b821-2b5a436b1906")
-		)
-		(instances
-			(project "PMS_board"
-				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e"
-					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -19755,7 +19529,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 60.96 0)
+		(at 77.47 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19766,7 +19540,7 @@
 		(fields_autoplaced yes)
 		(uuid "9328b911-e672-476f-8d3e-517a1dbee9f7")
 		(property "Reference" "#PWR051"
-			(at 58.42 67.31 0)
+			(at 77.47 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19777,7 +19551,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 66.04 0)
+			(at 77.47 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19787,7 +19561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 60.96 0)
+			(at 77.47 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19798,7 +19572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 60.96 0)
+			(at 77.47 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19809,7 +19583,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 60.96 0)
+			(at 77.47 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22426,235 +22200,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 58.42 50.8 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b91401f8-6535-4cc9-a10b-0b759ca49f44")
-		(property "Reference" "R50"
-			(at 53.848 52.324 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 58.166 52.324 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 58.166 49.784 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 58.42 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.1" ""
-			(at 58.42 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 58.42 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S6.2" ""
-			(at 58.42 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2cfb51bd-1bee-49be-96d3-e303b784b773")
-		)
-		(pin "1"
-			(uuid "72b0d645-7256-4a96-9ffd-7bea64e1391d")
-		)
-		(instances
-			(project "PMS_board"
-				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e"
-					(reference "R50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 52.07 55.88 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "be47cb54-f530-4116-ab38-b9018b67519a")
-		(property "Reference" "C11"
-			(at 52.324 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100pF"
-			(at 52.324 57.912 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 51.1048 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 52.07 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.1" ""
-			(at 52.07 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 52.07 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S6.2" ""
-			(at 52.07 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2bac8444-5b7b-4d68-9920-dc1fac52aa6a")
-		)
-		(pin "2"
-			(uuid "80617c96-cd1a-4531-9dc6-df8be9db11b3")
-		)
-		(instances
-			(project "PMS_board"
-				(path "/282246b0-e0d8-4997-b3ee-58bf10355d52/266cb597-81f7-4ea7-87c1-e1b826fc674e"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 254 194.31 90)
 		(mirror x)
 		(unit 1)
@@ -22890,7 +22435,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/vn7007ah.pdf"
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/00/8d/06/31/1c/66/43/66/DM00204885.pdf/files/DM00204885.pdf/jcr:content/translations/en.DM00204885.pdf"
 			(at 128.27 58.42 0)
 			(hide yes)
 			(show_name no)

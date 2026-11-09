@@ -571,10 +571,6 @@
 		(color 0 0 0 0)
 		(uuid "db4c8791-570c-4a4c-8cbc-21cec7c6aed0")
 	)
-	(no_connect
-		(at 92.71 60.96)
-		(uuid "a2e79765-c043-4c13-8251-c122f537640e")
-	)
 	(wire
 		(pts
 			(xy 100.33 60.96) (xy 100.33 66.04)
@@ -2458,16 +2454,6 @@
 		(pin "Curr_Jetson" output
 			(at 97.79 60.96 270)
 			(uuid "85f9eb62-3717-4830-8b6a-381215a4bd8f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Curr_Motors" output
-			(at 92.71 60.96 270)
-			(uuid "0be6c6e8-c695-45e4-b7da-a0c2b28d0d40")
 			(effects
 				(font
 					(size 1.27 1.27)
