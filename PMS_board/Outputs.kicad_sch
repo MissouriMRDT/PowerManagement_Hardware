@@ -4413,6 +4413,18 @@
 		)
 		(uuid "06fa18cc-2fcc-4ae2-bfd8-8632becb4b3e")
 	)
+	(text "Outputs\n"
+		(exclude_from_sim no)
+		(at 485.14 27.94 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "15d954cf-a658-42b4-b285-20507856ee09")
+	)
 	(text "15A @ Pack voltage\nper motor"
 		(exclude_from_sim no)
 		(at 563.372 107.95 0)
@@ -4432,16 +4444,6 @@
 			)
 		)
 		(uuid "1dcdf157-0740-4e84-9af0-7edda5584fa3")
-	)
-	(text "Brake Chopper"
-		(exclude_from_sim no)
-		(at 291.592 148.082 0)
-		(effects
-			(font
-				(size 5 5)
-			)
-		)
-		(uuid "23adc416-16e9-47f1-9670-2adeba42cb2a")
 	)
 	(text "AUX"
 		(exclude_from_sim no)
@@ -4545,6 +4547,30 @@
 		)
 		(uuid "a2d37ed1-b3c5-4d59-8e29-09055a0ff0e7")
 	)
+	(text "LED's"
+		(exclude_from_sim no)
+		(at 292.1 27.686 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "c7f5200a-12b8-462d-a3db-b72783d7f683")
+	)
+	(text "Brake Chopper\n"
+		(exclude_from_sim no)
+		(at 293.624 147.32 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "cc695676-73fb-4940-8b86-230193d03eb9")
+	)
 	(text "Core/Drive"
 		(exclude_from_sim no)
 		(at 420.116 74.168 0)
@@ -4554,6 +4580,18 @@
 			)
 		)
 		(uuid "d7501a5e-e705-47f8-8493-26893fe9b4d2")
+	)
+	(text "Load Switching"
+		(exclude_from_sim no)
+		(at 103.632 27.178 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "dbf0c750-52c8-439c-a5fc-8919aa4279c2")
 	)
 	(text "Network"
 		(exclude_from_sim no)
@@ -9565,16 +9603,6 @@
 		)
 		(uuid "01cf546e-07b7-44b4-bcb0-849cd6ededf3")
 	)
-	(label "OUTPUTS"
-		(at 449.58 43.18 0)
-		(effects
-			(font
-				(size 7.62 7.62)
-			)
-			(justify left bottom)
-		)
-		(uuid "0282b502-1cc4-4014-a1c3-304b9cbdcdb6")
-	)
 	(label "sourceC"
 		(at 194.31 302.26 0)
 		(effects
@@ -9614,16 +9642,6 @@
 			(justify left bottom)
 		)
 		(uuid "3518757a-8a15-4356-91db-46432d6976bf")
-	)
-	(label "LEDS"
-		(at 275.59 43.18 0)
-		(effects
-			(font
-				(size 7.62 7.62)
-			)
-			(justify left bottom)
-		)
-		(uuid "37ae83b5-0a33-413d-9ef7-e30342081c0f")
 	)
 	(label "DGateC"
 		(at 194.31 299.72 0)
@@ -9744,16 +9762,6 @@
 			(justify left bottom)
 		)
 		(uuid "ac42eb7f-6bfa-49f3-bb58-0a4f22732a7a")
-	)
-	(label "LOAD SWITCHING"
-		(at 64.77 33.02 0)
-		(effects
-			(font
-				(size 7.62 7.62)
-			)
-			(justify left bottom)
-		)
-		(uuid "d08db394-2a43-4356-8e5c-478c9f79a59d")
 	)
 	(label "Dalmout"
 		(at 347.98 297.18 180)
