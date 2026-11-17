@@ -1380,6 +1380,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 130.81 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e821b6ec-f72d-454f-bfc0-b57a26b09be8")
 		)
@@ -1453,6 +1464,17 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 111.76 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 111.76 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1622,6 +1644,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 101.6 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c8fbf5da-6585-458b-b0d0-d9141db6c88f")
 		)
@@ -1734,6 +1767,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 204.47 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e35c0667-0126-49d8-a567-e12717af9433")
 		)
@@ -1836,6 +1880,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 231.14 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 231.14 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -2036,6 +2091,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 231.14 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0b9c7538-06bb-4f96-9936-c84322346019")
 		)
@@ -2216,6 +2282,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 204.47 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 204.47 132.08 0)
 			(hide yes)
 			(show_name no)

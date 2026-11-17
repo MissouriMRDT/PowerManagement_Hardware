@@ -3934,7 +3934,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 134.62 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4000,6 +4000,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 134.62 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 134.62 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -4081,6 +4092,17 @@
 		)
 		(property "Description" ""
 			(at 64.77 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 64.77 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4566,6 +4588,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 151.13 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fae3b750-9727-4135-b0a4-6c2da21f72d7")
 		)
@@ -4749,6 +4782,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 105.41 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 105.41 63.5 0)
 			(hide yes)
 			(show_name no)

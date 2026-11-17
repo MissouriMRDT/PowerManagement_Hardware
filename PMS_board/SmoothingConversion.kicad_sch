@@ -3707,7 +3707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 182.5752 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3773,6 +3773,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 181.61 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "76a9f9a3-3df0-4c4c-a3a2-182f883e27fb")
 		)
@@ -3822,7 +3833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 234.6452 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3878,6 +3889,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 233.68 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 233.68 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4160,6 +4182,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 54.61 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "50be9e84-7bac-4480-bf58-648062030696")
 		)
@@ -4320,6 +4353,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 67.31 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bd3ad097-43b3-4e34-bcb5-27f4ae72ab11")
 		)
@@ -4369,7 +4413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 131.7752 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -4425,6 +4469,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 130.81 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 130.81 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4562,7 +4617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 120.3452 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -4618,6 +4673,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 119.38 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 119.38 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4741,6 +4807,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 223.52 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f4bac72b-d7e0-473a-8c73-682d4532aa0b")
 		)
@@ -4779,7 +4856,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 222.25 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4846,6 +4923,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 218.44 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 218.44 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -4961,6 +5049,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 194.31 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 194.31 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5252,6 +5351,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 227.33 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7ce248bc-b65a-4962-bb4e-6403f35e6144")
 		)
@@ -5443,6 +5553,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 223.52 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9dd38a01-5a5a-474e-bdaf-a907528999d3")
 		)
@@ -5514,6 +5635,17 @@
 		)
 		(property "Description" "Inductor"
 			(at 114.3 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 114.3 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5628,6 +5760,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 43.18 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 43.18 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -5987,6 +6130,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 64.77 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "33a52f4c-6877-44d0-ab1e-1c8daa3e9db0")
 		)
@@ -6268,6 +6422,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 38.1 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "77f1d85f-cc7a-44cf-a5cf-37886543cb17")
 		)
@@ -6373,6 +6538,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 213.36 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 213.36 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6510,7 +6686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 233.3752 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -6566,6 +6742,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 232.41 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 232.41 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6759,6 +6946,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 175.26 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 175.26 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -7040,6 +7238,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 200.66 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8aee9075-cc5d-4f9d-bfcd-0a105625c3ca")
 		)
@@ -7167,6 +7376,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 109.22 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "eff932c8-d99f-4d9b-9f69-2ffe14218f84")
 		)
@@ -7216,7 +7436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 244.8052 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -7272,6 +7492,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 243.84 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 243.84 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7464,6 +7695,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 218.44 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 218.44 58.42 0)
 			(hide yes)
 			(show_name no)

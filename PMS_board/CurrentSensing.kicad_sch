@@ -1850,6 +1850,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 92.71 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "00f9c6ee-74a5-4b07-96d7-4b99ac1e7701")
 		)
@@ -2010,6 +2021,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 81.28 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "01b5edc1-9424-4831-a4d3-bb283f632d04")
 		)
@@ -2089,6 +2111,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 110.49 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dafda1fa-c7d8-4a2b-aa36-91684b41b91c")
 		)
@@ -2159,6 +2192,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 110.49 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 110.49 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2316,6 +2360,17 @@
 			)
 		)
 		(property "Description" "Low Power Single Operational Amplifier, SOT-23-5"
+			(at 107.95 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 107.95 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2684,6 +2739,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 163.83 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "51207efa-afe0-4e4a-b102-6f0716b9235e")
 		)
@@ -2790,6 +2856,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 92.71 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 92.71 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

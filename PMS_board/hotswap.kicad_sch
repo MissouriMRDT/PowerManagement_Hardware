@@ -3703,6 +3703,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 62.23 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d9b4d6b9-bd06-45e9-8765-c8394c85425d")
 		)
@@ -3831,7 +3842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm"
 			(at 138.43 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3887,6 +3898,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 138.43 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 138.43 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4003,6 +4025,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 227.33 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 227.33 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -4207,6 +4240,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 118.11 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "feb976f7-8a70-491a-88b1-0e92fb96bbe5")
 		)
@@ -4313,6 +4357,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 85.09 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 85.09 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -4507,6 +4562,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 184.15 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 184.15 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -4764,6 +4830,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 88.9 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "5a43bdd6-e8c9-4fe6-acee-2bcb44a1a747")
 		)
@@ -4912,6 +4989,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 105.41 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ec524cbc-8a2f-4b16-b836-3cbbec2531f4")
 		)
@@ -5018,6 +5106,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 194.31 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 194.31 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -5301,6 +5400,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 118.11 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ba730b16-f805-4d3b-96c1-a8250b0affbe")
 		)
@@ -5487,6 +5597,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 215.9 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 215.9 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5760,6 +5881,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 200.66 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "89be0cc6-b14e-4801-9bc1-286dbe290987")
 		)
@@ -5909,6 +6041,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 171.45 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bba072a1-8010-4418-b2bf-a735cadfaf9c")
 		)
@@ -6025,6 +6168,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 73.66 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "624eed45-396a-48c4-ae25-8c031a4754ba")
 		)
@@ -6089,7 +6243,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm"
 			(at 151.13 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6145,6 +6299,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 151.13 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 151.13 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6262,6 +6427,17 @@
 		)
 		(property "KLC_S6.2" ""
 			(at 63.5 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 63.5 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6543,6 +6719,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 171.45 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d131a4aa-5afe-4e3a-af5f-cb97a1d50932")
 		)
@@ -6738,6 +6925,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 63.5 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "9e96bbb1-a13b-4d09-a19e-080b63557e51")
 		)
@@ -6826,6 +7024,17 @@
 		)
 		(property "Description" "Zener Diode 60 V 500 mW ±5% Surface Mount SOD-123"
 			(at 184.15 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 184.15 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7028,6 +7237,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 226.06 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "992e0c39-0d26-4104-aff3-4c587abcec18")
 		)
@@ -7143,6 +7363,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 95.25 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4ccb3974-ae14-4c60-bee6-104fe90ffaa1")
 		)
@@ -7217,6 +7448,17 @@
 		)
 		(property "Description" "Zener Diode 60 V 500 mW ±5% Surface Mount SOD-123"
 			(at 105.41 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 105.41 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7342,6 +7584,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 227.33 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "92fcfdb4-a958-43fc-aa9a-0142da053b1c")
 		)
@@ -7449,6 +7702,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 224.79 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 224.79 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7746,6 +8010,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 62.23 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3336bfdf-5f53-4355-bde5-7a443a5636dc")
 		)
@@ -7930,6 +8205,17 @@
 			)
 		)
 		(property "KLC_S6.2" ""
+			(at 204.47 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 204.47 151.13 0)
 			(hide yes)
 			(show_name no)

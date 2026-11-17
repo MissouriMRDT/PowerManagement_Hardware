@@ -64,7 +64,7 @@
           "min_island_area": 9.99999999996,
           "min_thickness": 0.25,
           "pad_connection": 2,
-          "remove_islands": 1,
+          "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -800,12 +800,12 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "D12",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Footprint"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
